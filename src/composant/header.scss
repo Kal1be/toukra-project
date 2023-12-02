@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Roboto:wght@300;400;500&display=swap');
+
+// the header none on the small screen +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@media(max-width:765px){
+  #myheader{
+    display: none;
+  }
+}
+//+++++++++=============++++++++++++++++++++++++++ the navbar of the element ++++++++++++++++================================+++++++++++++++++++++++++
+
+.divider {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    width: 105px;
+  }
+  // #headerNav{
+  //  z-index:1;
+
+  // }
+//++++++++=============================================the dropdown and is menu++++++++++++++++++++++=====================================+++========
+@media(min-width:766px){
+#btn{
+  display: none;
+}
+
+
+  #dropdown{
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color:white;
+    padding: 20px 10px;
+    opacity: 0;
+   margin-top: 20px;
+    visibility: hidden;
+    display: none;
+    animation: felix .14s linear;
+    z-index: 20000;
+
+    div{
+       div{
+        border-left: 1px solid gray;
+        padding: 10px 10px;
+       }
+    }
+    //+++++++++++++++++++++++++++++++++============================= the navbar dropdown element ul ++++++++++++++++++++++++============================================
+    .dropdown_ul{
+       
+        li{
+            color: black !important;
+            font-weight:400 !important;
+            padding: 12px 0 !important;
+            font-family: "Oswald",sans-serif;
+            font-size: 16px;
+        }
+    }
+  }
+  // +++++++++++++++=============================the animation on under the li element +++++++++++++++++++==============================================================
+
+  @keyframes felix {
+    0%{
+  margin-top: 40px;
+    }
+    100%{
+        margin-top: 20px;
+    }
+  }
+
+
+  // +++++++++++++++=================== the element dropdown_1++++++++++++++++++++++++++===============================================================
+
+  .dropdown_1{
+    padding: 15px 0;
+    // border-bottom: 3px solid white;
+    border-bottom: 3px solid inherit;
+    transition: .14s linear;
+    border-bottom: 3px ;
+    cursor: pointer;
+  }
+  .dropdown_2{
+    border-bottom: 3px solid rgb(197, 193, 193);
+  }
+  .dropdown_1:hover{
+    color:rgb(72, 200, 255) ;
+    padding: 15px 0;
+    
+
+  }
+  // +++++++++++++++++========================= the show navbar on the hover when the mouse come in +++++++++++++++++++=======================================
+  
+  .dropdown_1:hover #dropdown{
+    opacity: 1;
+    visibility:visible;
+    display: block;
+  }
+}
+
+// +++++++++++++++++++++++++===================================== the shrink navbar when the navbar reach the top of 350px +++++++++++++++++++++++=======================
+
+#nav{
+  background-color: white;
+  position: fixed;
+  top: -450px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 100;
+  padding-top: 0 !important;
+ 
+}
+#header{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 100;
+  padding-top: 0 !important;
+}
+
+//   +++++++++++++++====================================the end of menu hamburger++++++++++++++++++++++++++++++================================
+  
+  .divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: .33px;
+    background-color: #2dc0fe;
+    margin: 5px;
+  }
+  .icon{
+   display:none;
+   }
+
+  //  the headernav on the small screen +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=========================================
+
+
+  #headerNav{
+    h3{
+        font-family: "Oswald",sans-serif;
+        font-weight: 600 !important;
+        font-size: 20px;
+    }
+
+  
+    #hid{
+        margin: 0;
+        li{
+            font-family: "Roboto",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            font-style: normal;
+            padding: 15px 0;
+        }
+    }
+
+    .dropdown_ul{
+      li{
+        color: black !important;
+      }
+    }
+  }
+
+  // +++++++++++++++++=============================================== @media query on the small phone and mobile++++++++++++++++++++===========================
+  
+  @media(max-width:765px){
+    .icon{
+        display:block;
+    }
+  
+    .btn{
+        width: 22px;
+        height: 3px;
+        background-color:white;
+        margin: 3px 0;
+      }
+      // +++++++++++++++++===================the id for ul element ++++++++++++=====================================================
+
+    #hid{
+        transform: translateX(-1000%);
+        transition: 1s linear;
+       position: absolute;
+    }
+    #hid .active{
+        transform: translateX(0);
+        transition: .55s linear;
+            }
+
+           
+
+            // +++++++++++++++++++==================== the end of id element of the ul element ++++++++++===========================
+
+  //  ul{
+  //       position: absolute !important;
+  //       right: 0;
+  //       left: 0;
+  //       background-color: white;
+  //       transition: .33s linear;
+  //       // z-index: 100;
+
+  //       li{
+
+  //           font-size: 14px;
+  //           padding: 10px 30px !important;
+  //       }
+  //   }
+
+   
+
+    .divider {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        width: 100px;
+      }
+      
+      .divider::before, .divider::after {
+        flex: 1;
+        content: '';
+        padding: .33px;
+        background-color: rgb(45, 192, 254);
+        margin: 4px;
+      }
+  }
+  

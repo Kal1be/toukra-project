@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Raleway&family=Roboto:wght@300;400;500&display=swap');
+#my-image{
+    content:'';
+    margin: 0 10px;
+}
+
+.my-image{
+    #div{
+        background-attachment: fixed;
+        background:rgba(4, 4, 63, 0.389);
+        width: 100vw;
+        height: 100%;
+        padding-right: 2%;
+        padding-top: 6%;
+
+    }
+}
+.react-multi-carousel-list button{
+    background-color: transparent !important;
+}
+// _______++++++++++++++++================== the carousell element and is own element_________+++++++++++++++=========================
+
+.my-image h2{
+    font-family:'Oswald', Times, serif;
+    padding: 0%;
+    font-size: 60px;
+    font-weight: bold;
+    color:white;
+    margin: 0 90px;
+
+}
+.my-image button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    transition: .2s linear;
+}
+.my-image button:hover{
+    background-color:#0c9cda ;
+    border:1px solid #0c9cda;
+}
+.my-image p{
+    font-size: 25px;
+    color: white;
+}
+
+@media(max-width:766px){
+    .my-image{
+        #div{
+            background-attachment: fixed;
+            width: 100vw;
+            height: 100%;
+          padding-right: 8%;
+          padding-top: 20%;
+        }
+    }
+    .my-image button{
+        background-color: transparent;
+        border: 1px solid white;
+        padding: 6px 10px;
+        color: white;
+        transition: .2s linear;
+    }
+    .my-image h2{
+        font-family:'Oswald', Times, serif;
+        padding: 0%;
+        font-size: 23px;
+        font-weight: bold;
+        padding: 0 -10px;
+    margin: 0 10px;
+    }
+    .my-image p{
+        font-size: 16px;
+    }
+}
+//___________++++++++++++++++++++++++++=============== the en den of the ++++++++++++++++++++=======================================
+
+@media(min-width:766px){
+   
+
+    .react-multi-carousel-list .my-image:before{
+        background-color: white !important;
+    }
+    .react-multi-carousel-list ul {
+        content:'';
+        background: transparent !important; 
+       
+            // li{
+            //     background-color: white;
+            // }
+    }
+    .react-multi-carousel-list button{
+        // background: #36b7ee !important;
+        z-index: 1;
+        // position: absolute;
+        // bottom: 35%;
+        // margin-left: 80%;
+    }
+    .my-image img{
+        z-index: 1;
+    }
+    
+}

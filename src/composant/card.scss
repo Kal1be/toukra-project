@@ -1,0 +1,26 @@
+#modifiant{
+    padding: 20px 10px;
+img{
+    border-radius: 50% 0 50% 50% ;
+}
+p{
+    font-size: 17px;
+            color: gray;
+            font-weight:bold;
+            line-height: 2rem;
+}
+}
+#dounia{
+    background-image: url("./ciel.jpg") !important;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+@media(max-width:850px){
+    #modifiante p{
+        font-size: 17px;
+                font-weight:bold;
+                line-height: 1.8rem;
+                color: gray;
+    }
+}
