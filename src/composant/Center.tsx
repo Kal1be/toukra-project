@@ -9,7 +9,7 @@ function Center() {
         <div className="md:flex justify-between w-sreen">
             <div>
               <div className="absolute"  id="animate">
-              <img src="/icon.png" alt=""/>
+              <img src="/toukra-project/icon.png" alt=""/>
                 <p className="text-center bg-sky-400 text-white font-extrabold w-24 p-3 rounded-full z-20">Former Plus<br />
                 3M+</p>
               </div>
@@ -17,7 +17,7 @@ function Center() {
                 initial={{scale:1}}
                 transition={{duration:1}}
                 whileHover={{scale:1}}
-                src="/etudian.jpg" alt=""  className="lg:w-[90%] xl:h-[700px] md:h-[700px] h-[450px]"/>
+                src="/toukra-project/etudian.jpg" alt=""  className="lg:w-[90%] xl:h-[700px] md:h-[700px] h-[450px]"/>
             </div>
             <div className="md:w-[60%] lg:mt-10 mt-4" id="mode1">
             <h3 className="xl:text-5xl font-extrabold text-2xl">

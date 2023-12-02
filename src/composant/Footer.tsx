@@ -10,11 +10,11 @@ function Footer() {
       {/* _____________+++++++++++++++++++=============== the icon and the title of the footer_____________++++++++++++++++++=========== */}
       <div >
       <div className="flex items-center">
-        <img src="/im6.png" alt="" className="xl:w-[12%] me-[2px] xl:h-[20%] w-10 object-cover" />
+        <img src="/toukra-project/im6.png" alt="" className="xl:w-[12%] me-[2px] xl:h-[20%] w-10 object-cover" />
        <div>
        <h3 className="lg:text-2xl md:mt-[-1px] text-xl font-extrabold">Universite de<span className="text-sky-400"> Toukra</span></h3>
        <div className="divider  -ms-1 -mt-1">
-       <img src="/drapeau1.png" alt="" className="xl:w-2 xl:h-3 w-2 h-3" />
+       <img src="/toukra-project/drapeau1.png" alt="" className="xl:w-2 xl:h-3 w-2 h-3" />
        </div>
        </div>
       </div>

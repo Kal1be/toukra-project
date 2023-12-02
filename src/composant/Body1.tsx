@@ -68,7 +68,7 @@ export const MyCarousel =()=>{
          whileInView={{scale:1,opacity:1}}
           className="  bg-white " id="mode2">
                 <motion.img 
-                src="/etudiant1.jpeg" alt="" className="w-full object-cover  h-[260px]"/>
+                src="/toukra-project/etudiant1.jpeg" alt="" className="w-full object-cover  h-[260px]"/>
                 <div className="flex justify-between items-center px-2">
                 <h3 className="text-xl font-bold">Droits Juridiques</h3>
                 <div>
@@ -99,7 +99,7 @@ export const MyCarousel1 =()=>{
          initial={{scale:.9,opacity:0}}
          transition={{duration:1}}
          whileInView={{scale:1,opacity:1}}className=" bg-white" id="mode2">
-            <img src="/etudiant2.jpeg" alt="" className="w-full object-cover  h-[260px]"/>
+            <img src="/toukra-project/etudiant2.jpeg" alt="" className="w-full object-cover  h-[260px]"/>
             <div className="flex justify-between items-center px-2">
                 <h3 className="text-xl font-bold">Sociologie</h3>
                 <div>
@@ -130,7 +130,7 @@ export const MyCarousel2 =()=>{
          initial={{scale:.9,opacity:0}}
          transition={{duration:1}}
          whileInView={{scale:1,opacity:1}} className=" bg-white" id="mode2">
-            <img src="/etudiant3.jpeg" alt="" className="w-full object-cover h-[260px]"/>
+            <img src="/toukra-project/etudiant3.jpeg" alt="" className="w-full object-cover h-[260px]"/>
             <div className="flex justify-between items-center px-2">
                 <h3 className="text-xl font-bold">Communication</h3>
                 <div>
@@ -162,7 +162,7 @@ export const MyCarousel3 =()=>{
          transition={{duration:1}}
          whileInView={{scale:1,opacity:1}}
          className=" bg-white" id="mode2">
-            <img src="/etudiant4.jpeg" alt="" className="w-full object-cover  h-[260px]"/>
+            <img src="/toukra-project/etudiant4.jpeg" alt="" className="w-full object-cover  h-[260px]"/>
             <div className="flex justify-between items-center px-2">
                 <h3 className="text-xl font-bold">Geographie</h3>
                 <div>
@@ -193,7 +193,7 @@ export const MyCarousel4 =()=>{
          transition={{duration:1}}
          whileInView={{scale:1,opacity:1}}
           className=" bg-white" id="mode2">
-            <img src="/etudiant5.jpeg" alt="" className="w-full object-cover  h-[260px]"/>
+            <img src="/toukra-project/etudiant5.jpeg" alt="" className="w-full object-cover  h-[260px]"/>
             <div className="flex justify-between items-center px-2">
                 <h3 className="text-xl font-bold">Histoire</h3>
                 <div>
@@ -224,7 +224,7 @@ export const MyCarousel5 =()=>{
          transition={{duration:1}}
          whileInView={{scale:1,opacity:1}}
          className=" bg-white" id="mode2">
-            <img src="/etudiant6.jpeg" alt=""  className="w-full object-cover  h-[260px]"/>
+            <img src="/toukra-project/etudiant6.jpeg" alt=""  className="w-full object-cover  h-[260px]"/>
             <div className="flex justify-between items-center px-2">
                 <h3 className="text-xl font-bold">Englais</h3>
                 <div>
@@ -256,7 +256,7 @@ export const MyCarousel6 =()=>{
          transition={{duration:1}}
          whileInView={{scale:1,opacity:1}}
            className=" bg-white" id="mode2">
-            <img src="/etudiant7.jpeg" alt=""  className="w-full object-cover  h-[260px]"/>
+            <img src="/toukra-project/etudiant7.jpeg" alt=""  className="w-full object-cover  h-[260px]"/>
             <div className="flex justify-between items-center px-2">
                 <h3 className="text-xl font-bold">Anthropologie</h3>
                 <div>
@@ -288,7 +288,7 @@ export const MyCarousel7 =()=>{
          transition={{duration:1}}
          whileInView={{scale:1,opacity:1}}
           className=" bg-white" id="mode2">
-            <img src="/etudiant8.jpg" alt=""  className="w-full object-cover  h-[260px]"/>
+            <img src="/toukra-project/etudiant8.jpg" alt=""  className="w-full object-cover  h-[260px]"/>
             <div className="flex justify-between items-center px-2">
                 <h3 className="text-xl font-bold">Arabes</h3>
                 <div>
@@ -320,7 +320,7 @@ export const MyCarousel8 =()=>{
          transition={{duration:1}}
          whileInView={{scale:1,opacity:1}}
           className=" bg-white" id="mode2">
-            <img src="/etudiant9.png" alt=""  className="w-full object-cover  h-[260px]"/>
+            <img src="/toukra-project/etudiant9.png" alt=""  className="w-full object-cover  h-[260px]"/>
             <div className="flex justify-between items-center px-2">
                 <h3 className="text-xl font-bold">Education</h3>
                 <div>
@@ -351,7 +351,7 @@ export const MyCarousel9 =()=>{
          transition={{duration:1}}
          whileInView={{scale:1,opacity:1}}
           className=" bg-white  rounded-2xl" id="mode2">
-            <img src="/etudiant10.webp" alt=""  className="w-full object-cover  h-[260px]"/>
+            <img src="/toukra-project/etudiant10.webp" alt=""  className="w-full object-cover  h-[260px]"/>
             <div className="flex justify-between items-center px-2">
                 <h3 className="text-xl font-bold">Philosophie</h3>
                 <div>

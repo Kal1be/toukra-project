@@ -43,7 +43,7 @@ function Body() {
       transition={{duration:1}}
       whileInView={{y:0,opacity:1}}
        className="md:me-12 flex md:block justify-between my-4 md:my-0 w-full">
-            <img src="/sky.png" alt="l'icon ne peut" className="w-16"/>
+            <img src="/toukra-project/sky.png" alt="l'icon ne peut" className="w-16"/>
                  <div className="mx-2 md:mx-0">
                  <h4 className="font-bold md:text-xl text-xl">Enseignement E-Learning</h4>
                   <p className="md:text-lg md:font-sm text-md text-justify">
@@ -59,7 +59,7 @@ function Body() {
       transition={{duration:1}}
       whileInView={{y:0,opacity:1,scale:1}}
       className="md:me-10 w-full flex md:block justify-between my-4 md:my-0">
-                <img src="/usersky.jpeg" alt="l'icon ne peut" className="w-16"/>
+                <img src="/toukra-project/usersky.jpeg" alt="l'icon ne peut" className="w-16"/>
                 <div className="mx-2 md:mx-0">
                 <h4 className="font-bold  md:text-xl text-xl">Programme de premier
 cycle</h4>
@@ -77,7 +77,7 @@ cycle</h4>
       whileInView={{y:0,opacity:1}}
       className="md:me-14 w-full flex md:block justify-between my-4 md:my-0"
       >
-            <img src="/cap.png" alt="l'icon ne peut" className="w-16"/>
+            <img src="/toukra-project/cap.png" alt="l'icon ne peut" className="w-16"/>
            <div className="mx-2 md:mx-0">
            <h4 className=" md:text-xl text-xl font-bold">LVT/DIplome</h4>
                  <p className="md:text-lg text-md text-justify">Maintenant pour ceux qui peuvent être disponible à l'espace de 2 ou 3 mois par ans pour étudier pour un Diploma.</p>
@@ -90,7 +90,7 @@ cycle</h4>
       whileInView={{y:0,opacity:1}}
       className="md:me-10 w-full flex md:block justify-between my-4 md:my-0"
       >
-                <img src="/schoolsky.png" alt="l'icon ne peut" className="w-16"/>
+                <img src="/toukra-project/schoolsky.png" alt="l'icon ne peut" className="w-16"/>
                 <div className="mx-2 md:mx-0">
                 <h4 className="font-bold  md:text-xl text-xl">
 La vie universitaire</h4>

@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route path="/toukra-project/" element={<Home/>}/>
       <Route path='/*' element={<NotFound/>}/>
     </Routes>
     <Footer/>

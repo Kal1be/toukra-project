@@ -29,7 +29,7 @@ export const Treecard1 = ()=>{
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
         className=" bg-white shadow-2xl md:flex justify-between md:mx-24 mx-4 mt-6 rounded-xl" id="modifiant">
-            <img src="/class2.jpg" alt="" className="md:w-[35%] w-[92%] mx-2 md:mx-0"/>
+            <img src="/toukra-project/class2.jpg" alt="" className="md:w-[35%] w-[92%] mx-2 md:mx-0"/>
             <div className="md:mx-6 mx-4">
             <h3 className="font-bold text-yellow-400">27 avril,2024</h3>
            <h3 className="md:text-2xl font-extrabold text-lg">Remise de Diplome de finalisation pour nos Laureats</h3>
@@ -55,7 +55,7 @@ export const Treecard2 = ()=>{
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
          className=" bg-white shadow-2xl md:flex justify-between md:mx-24 mx-4 mt-10 rounded-xl" id="modifiant">
-        <img src="/class3.jpg" alt="" className="md:w-[35%] w-[94%] mx-2 md:mx-0"/>
+        <img src="/toukra-project/class3.jpg" alt="" className="md:w-[35%] w-[94%] mx-2 md:mx-0"/>
         <div className="md:mx-6 mx-4">
             <h3 className="font-bold text-yellow-400">27 Mars,2024</h3>
            <h3 className="md:text-2xl font-extrabold text-lg">
@@ -82,7 +82,7 @@ export const Treecard3 = ()=>{
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
           className=" bg-white shadow-2xl md:flex justify-between md:mx-24 mx-4 mt-10 rounded-xl" id="modifiant">
-        <img src="/football.png" alt="" className="md:w-[35%] w-[92%] mx-2 md:mx-0"/>
+        <img src="/toukra-project/football.png" alt="" className="md:w-[35%] w-[92%] mx-2 md:mx-0"/>
         <div className="md:mx-6 mx-4">
             <h3 className="font-bold text-yellow-400">27 avril,2024</h3>
            <h3 className="md:text-2xl font-extrabold text-lg">

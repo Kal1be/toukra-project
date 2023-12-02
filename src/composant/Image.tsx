@@ -4,7 +4,7 @@ export function Image() {
   return (
         <div className="image">
             <img
-    src="/reel1.jpg" alt="" className="w-full md:h-[600px] h-[380px]"/>
+    src="/toukra-project/reel1.jpg" alt="" className="w-full md:h-[600px] h-[380px]"/>
         </div>
   )
 }
@@ -13,7 +13,7 @@ export function Image1() {
   return (
     <div className="image">
       <img
-    src="/reel4.jpg" alt="" className="w-full md:h-[600px] h-[380px]"/>
+    src="/toukra-project/reel4.jpg" alt="" className="w-full md:h-[600px] h-[380px]"/>
     </div>
   )
 }
@@ -22,7 +22,7 @@ export function Image2() {
     return (
       <div className="image">
         <img
-    src="/reel5.jpg" alt="" className="w-full md:h-[600px] h-[380px] bg-white"/>
+    src="/toukra-project/reel5.jpg" alt="" className="w-full md:h-[600px] h-[380px] bg-white"/>
       </div>
     )
   }
@@ -31,7 +31,7 @@ export function Image2() {
     return (
       <div className="image">
          <img
-    src="/bus.jpg" alt="" className="w-full md:h-[600px] h-[380px] "/>
+    src="/toukra-project/bus.jpg" alt="" className="w-full md:h-[600px] h-[380px] "/>
       </div>
     )
   }

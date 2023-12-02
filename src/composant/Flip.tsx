@@ -51,14 +51,14 @@ function Flip() {
 <div >
 <p className="text-white md:text-xl text-lg my-3 text-justify mx-4">Salut,je suis Adele Orimadji et je suis etudiante a l'universite de Toukra,j'etudie la communication et mon reve c'est de devenir journaliste de Television.Rejoignez moi et etudions ensemble</p>
   <div className="flex items-center mx-4">
-    <img src="/temoin2.jpeg" alt="" className="w-16 bg-white rounded-full border h-16"/>
+    <img src="/toukra-project/temoin2.jpeg" alt="" className="w-16 bg-white rounded-full border h-16"/>
     <p className="text-white font-bold mx-2">Adele Orimadji <span className="block font-normal text-sm">Etudiante</span></p>
   </div>
 </div>
 <div>
 <p className="text-white md:text-xl text-lg my-3 text-justify mx-4">Salut,moi ce Etienne Dingamnodji et je suis etudiant a l'universite de Toukra,j'etudie la Philosophie et mon reve c'est de devenir grand philosophe,Rejoignez nous et etudions ensemble.</p>
   <div className="flex items-center mx-4" >
-    <img src="/temoin4.png" alt="" className="w-16 rounded-full border"/>
+    <img src="/toukra-project/temoin4.png" alt="" className="w-16 rounded-full border"/>
     <p className="text-white font-bold mx-2">Dingamnodji Etienne<span className="block font-normal text-sm">Etudiant</span></p>
     </div>
     </div>
@@ -66,7 +66,7 @@ function Flip() {
     
 <p className="text-white md:text-xl text-lg my-3 text-justify mx-4">Salut,moi ce Koubeube Angele et je suis etudiante a l'universite de Toukra,j'etudie la science sociale et mon reve est de unir les tchadiens,Rejoignez nous et etudions ensemble.</p>
   <div className="flex items-center mx-4">
-    <img src="/temoin3.webp" alt="" className="w-16 rounded-full bg-white border h-16"/>
+    <img src="/toukra-project/temoin3.webp" alt="" className="w-16 rounded-full bg-white border h-16"/>
     <p className="text-white font-bold mx-2">Koubeube Angele<span className="block font-normal text-sm">Etudiante</span></p>
   </div>
 </div>
