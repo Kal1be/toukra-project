@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser,faHome,faCheck, faExclamationCircle, faTools } from "@fortawesome/free-solid-svg-icons";
 import "./carousel.scss"
-import { Image, Image1, Image2, Image3 } from "./Image";
+import { Image, Image1, Image3 } from "./Image";
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.

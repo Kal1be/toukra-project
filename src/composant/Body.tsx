@@ -1,4 +1,4 @@
-import { useState } from "react"
+// import { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons"
 import { motion } from "framer-motion"
@@ -6,7 +6,7 @@ import "./image.scss"
 
 function Body() {
 
-    const [formState,setFormState] = useState({})
+    // const [formState,setFormState] = useState({})
 
 
     // const handlechange =(event:React.InputHTMLAttributes<HTMLInputElement>)=>{

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faArrowLeft, faChevronRight, faClock,faLocation } from "@fortawesome/free-solid-svg-icons"
+import { faChevronRight, faClock,faLocation } from "@fortawesome/free-solid-svg-icons"
 import "./card.scss"
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
