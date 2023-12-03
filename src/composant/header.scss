@@ -37,6 +37,7 @@
     display: none;
     animation: felix .14s linear;
     z-index: 20000;
+    border-top:2px solid rgb(72, 200, 255);
 
     div{
        div{
@@ -55,6 +56,65 @@
             font-size: 16px;
         }
     }
+  }
+// ________+++++++++++++++================== the dropdown menu and is own element ____________++++++++++++++++++======================
+  #dropdown1{
+    position: absolute;
+    background-color:white;
+    padding: 20px 10px;
+    opacity: 0;
+   margin-top: 20px;
+    visibility: hidden;
+    display: none;
+    animation: felix .14s linear;
+    z-index: 20000;
+    border-top:2px solid rgb(72, 200, 255);
+    width: 20%;
+   margin-left: -6%;
+  }
+
+  #dropdown1 ul li{
+    color: black !important;
+            font-weight:400 !important;
+            padding: 12px 0 !important;
+            font-family: "Oswald",sans-serif;
+            font-size: 16px;
+  }
+
+  .dropdown_2:hover #dropdown1{
+    opacity: 1;
+    visibility:visible;
+    display: block;
+
+  }
+
+  // ________________++++++++++++++++++++++============ the dropdown menu bibliotheques ___________++++++++++++++++++++==================
+
+  #dropdown2{
+    position: absolute;
+    background-color:white;
+    padding: 20px 10px;
+    opacity: 0;
+   margin-top: 20px;
+    visibility: hidden;
+    display: none;
+    animation: felix .14s linear;
+    z-index: 20000;
+    border-top:2px solid rgb(72, 200, 255);
+    width: 19%;
+    margin-left: -11.4%;
+  }
+  #dropdown2 ul li{
+    color: black !important;
+            font-weight:400 !important;
+            padding: 12px 0 !important;
+            font-family: "Oswald",sans-serif;
+            font-size: 16px;
+  }
+  .dropdown_3:hover #dropdown2{
+    opacity: 1;
+    visibility:visible;
+    display: block;
   }
   // +++++++++++++++=============================the animation on under the li element +++++++++++++++++++==============================================================
 
@@ -78,9 +138,9 @@
     border-bottom: 3px ;
     cursor: pointer;
   }
-  .dropdown_2{
-    border-bottom: 3px solid rgb(197, 193, 193);
-  }
+  // .dropdown_2{
+  //   border-bottom: 3px solid rgb(197, 193, 193);
+  // }
   .dropdown_1:hover{
     color:rgb(72, 200, 255) ;
     padding: 15px 0;
@@ -165,6 +225,15 @@
   // +++++++++++++++++=============================================== @media query on the small phone and mobile++++++++++++++++++++===========================
   
   @media(max-width:765px){
+    #dropdown{
+      display: none;
+    }
+    #dropdown1{
+      display: none;
+    }
+    #dropdown2{
+      display: none;
+    }
     .icon{
         display:block;
     }
@@ -181,6 +250,8 @@
         transform: translateX(-1000%);
         transition: 1s linear;
        position: absolute;
+       height: 100vh;
+       width: 100%;
     }
     #hid .active{
         transform: translateX(0);
@@ -191,22 +262,6 @@
 
             // +++++++++++++++++++==================== the end of id element of the ul element ++++++++++===========================
 
-  //  ul{
-  //       position: absolute !important;
-  //       right: 0;
-  //       left: 0;
-  //       background-color: white;
-  //       transition: .33s linear;
-  //       // z-index: 100;
-
-  //       li{
-
-  //           font-size: 14px;
-  //           padding: 10px 30px !important;
-  //       }
-  //   }
-
-   
 
     .divider {
         font-size: 10px;

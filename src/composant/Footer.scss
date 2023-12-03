@@ -30,3 +30,37 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+#lastf hr{
+    border: 1px solid gray;
+    margin: 2px 5%;
+}
+#lastf{
+    padding: 10px;
+    div{
+        padding: 16px 5%;
+        p{
+            font-size: 16px;
+    font-weight: 500;
+    color: rgb(44, 44, 44);
+        }
+    }
+}
+
+@media(max-width:766px){
+    #lastf hr{
+        border: 1px solid gray;
+        margin: 2px 2%;
+    }
+    #lastf{
+        padding: 10px;
+        div{
+            padding: 16px 2%;
+            p{
+                font-size: 16px;
+        font-weight: 400;
+        color: rgb(44, 44, 44);
+            }
+        }
+    }
+}

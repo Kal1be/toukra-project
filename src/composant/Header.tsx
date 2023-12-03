@@ -26,7 +26,7 @@ return()=>{
   },[navbar])
   return (
     <div>
-      <div className="flex justify-between items-center md:py-2 py-3 px-2 font-bold shadow-xl" id="headerNav">
+      <div className="flex justify-between items-center md:py-2 py-2 px-2 font-bold shadow-xl" id="headerNav">
       <div className="flex justify-between w-screen items-center">
 
         {/*_+++++++++++++++=========================== the navbar and the element+++++++++++++++++++=================================================*/}
@@ -45,7 +45,7 @@ return()=>{
 
      <div onClick={()=>{
       setOpen(false)
-     }} className="mt-1 bg-sky-400 px-1 py-1 mx-1" id="btn">
+     }} className=" bg-sky-400 px-1 py-1 mx-1" id="btn">
      <div className="btn"></div>
       <div className="btn"></div>
       <div className="btn"></div>
@@ -56,7 +56,7 @@ return()=>{
 
       <motion.div>
         <ul className="xl:w-[750px] md:w-[530px] md:flex justify-between" id={open?"hid":"hid active"}>
-          <FontAwesomeIcon icon={faClose} className="icon" onClick={()=>{
+          <FontAwesomeIcon icon={faClose} className="text-2xl" onClick={()=>{
             setOpen(true)
           }}/>
             <li> <Link to="/">Accueil</Link>
@@ -110,10 +110,30 @@ return()=>{
                 </div>
               </div>
             </li>
-            <li><motion.span>A Propos</motion.span></li>
+            <li className="dropdown_2"><motion.span>A Propos</motion.span>
+            <div className="" id="dropdown1">
+            <ul>
+              <li>Privacy et Confidentiale</li>
+              <li>Centre de Conseil et d'orientation</li>
+              <li>Bureau generale</li>
+              <li>Service d'accueil de l'universite</li>
+              <li>Gestionaire et Chef en control</li>
+            </ul>
+            </div>
+            </li>
             <li><motion.span>Journal </motion.span></li>
             <li><motion.span>Nouvelles</motion.span></li>
-            <li><motion.span>Bibliotheques</motion.span></li>
+            <li className="dropdown_3"><motion.span>Bibliotheques</motion.span>
+            <div className="" id="dropdown2">
+            <ul>
+              <li>Privacy et Confidentiale</li>
+              <li>Centre de Conseil et d'orientation</li>
+              <li>Bureau generale</li>
+              <li>Service d'accueil de l'universite</li>
+              <li>Gestionaire et Chef en control</li>
+            </ul>
+            </div>
+            </li>
         </ul>
       </motion.div>
     </div>
@@ -125,7 +145,7 @@ return()=>{
      whileInView={{opacity:1}}
      id={navbar? "nav":"header"}>
 
-     <div className="flex justify-between items-center border shadow-2xl md:py-2 py-3 px-2 font-bold bg-gray-200" id="headerNav">
+     <div className="flex justify-between items-center border shadow-2xl md:py-2 py-2 px-2 font-bold bg-gray-200" id="headerNav">
       <div className="flex justify-between w-screen items-center">
 
         {/*_+++++++++++++++=========================== the navbar and the element+++++++++++++++++++=================================================*/}
@@ -146,7 +166,7 @@ return()=>{
      <div onClick={()=>{
       setOpen(false)
      }}
-     className="mt-1 bg-sky-400 px-1 py-1 mx-1" id="btn">
+     className=" bg-sky-400 px-1 py-1 mx-1" id="btn">
      <div className="btn"></div>
       <div className="btn"></div>
       <div className="btn"></div>
@@ -157,7 +177,7 @@ return()=>{
 
       <motion.div>
         <ul className="xl:w-[750px] md:w-[530px] md:flex justify-between" id={open?"hid":"hid active"}>
-          <FontAwesomeIcon icon={faClose} className="icon" onClick={()=>{
+          <FontAwesomeIcon icon={faClose} className="text-2xl" onClick={()=>{
             setOpen(true)
           }}/>
             <li>Accueil
@@ -209,10 +229,30 @@ return()=>{
                 </div>
               </div>
             </li>
-            <li><motion.span>A Propos</motion.span></li>
+            <li className="dropdown_2"><motion.span>A Propos</motion.span>
+            <div className="" id="dropdown1">
+            <ul>
+              <li>Privacy et Confidentiale</li>
+              <li>Centre de Conseil et d'orientation</li>
+              <li>Bureau generale</li>
+              <li>Service d'accueil de l'universite</li>
+              <li>Gestionaire et Chef en control</li>
+            </ul>
+            </div>
+            </li>
             <li><motion.span>Journal </motion.span></li>
             <li><motion.span>Nouvelles</motion.span></li>
-            <li><motion.span>Bibliotheques </motion.span></li>
+            <li className="dropdown_3"><motion.span>Bibliotheques</motion.span>
+            <div className="" id="dropdown2">
+            <ul>
+              <li>Privacy et Confidentiale</li>
+              <li>Centre de Conseil et d'orientation</li>
+              <li>Bureau generale</li>
+              <li>Service d'accueil de l'universite</li>
+              <li>Gestionaire et Chef en control</li>
+            </ul>
+            </div>
+            </li>
         </ul>
       </motion.div>
     </div>

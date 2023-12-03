@@ -7,7 +7,7 @@
 .my-image{
     #div{
         background-attachment: fixed;
-        background:rgba(4, 4, 63, 0.389);
+        background:rgba(1, 1, 78, 0.573);
         width: 100vw;
         height: 100%;
         padding-right: 2%;
@@ -37,7 +37,7 @@
     transition: .2s linear;
 }
 .my-image button:hover{
-    background-color:#0c9cda ;
+    background-color:#0c9cda !important;
     border:1px solid #0c9cda;
 }
 .my-image p{
@@ -52,7 +52,7 @@
             width: 100vw;
             height: 100%;
           padding-right: 8%;
-          padding-top: 20%;
+          padding-top: 10%;
         }
     }
     .my-image button{
@@ -65,10 +65,10 @@
     .my-image h2{
         font-family:'Oswald', Times, serif;
         padding: 0%;
-        font-size: 23px;
+        font-size: 30px;
         font-weight: bold;
         padding: 0 -10px;
-    margin: 0 10px;
+        margin: 0 10px;
     }
     .my-image p{
         font-size: 16px;

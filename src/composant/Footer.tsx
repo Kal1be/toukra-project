@@ -49,10 +49,12 @@ function Footer() {
        </ul>
       </div>
     </div>
+    <div id="lastf">
     <hr className="border"/>
     <div className=" md:flex justify-between md:px-16 px-6">
     <p>Copyright &copy; 2023 Universite de Toukra, tous droits reserves.</p>
     <p>Developpez par <Link to="/devsoftware" className="text-sky-400 underline">DevSoftware Yahoulbo</Link></p>
+    </div>
     </div>
     </div>
   )
