@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 function Center() {
   return (
-    <div className="bg-white md:-mt-36 mt-10 md:px-12 px-4">
+    <div className="bg-white md: mt-10 md:px-12 px-4">
 
         <div className="md:flex justify-between w-sreen">
             <div>

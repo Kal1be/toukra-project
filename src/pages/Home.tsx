@@ -16,9 +16,9 @@ function Home() {
   <Caroussel/>
   </div>
   <Body/>
-  <Center/>
   <Flip/>
   <Flip1/>
+  <Center/>
   <Body1/>
   <TreeCard/>
  <Cookies/>

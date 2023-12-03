@@ -65,24 +65,24 @@
         background-image: url("/toukra-project/reel1.jpg");
         background-attachment:local;
         width: 100%;
-        height: 55vh;
+        height: 50vh;
     }
     .back1{
         position: absolute;
         width: 100%;
-        height: 55vh;
+        height: 50vh;
         padding-top: 20vh;
     }
     .back1 h2{
         font-family:'Times New Roman', Times, serif;
         color: white;
-        font-weight: 600;
-        font-size: 23px;
+        font-weight: bold;
+        font-size: 20px;
         margin: 0 10px;
     }
     .back1 p{
         color: white;
-        font-size: 17px;
+        font-size: 16px;
     }
     
     .back1 button:nth-child(1){

@@ -25,7 +25,7 @@ function Flip() {
         }
       };
   return (
-    <div className=" bg-sky-400 mt-4 md:pb-12 md:pt-6 pb-8 pt-2">
+    <div className=" bg-sky-400 lg:-mt-16 md:pb-12 md:pt-6 pb-8 pt-2">
       <div className=" md:flex md:mx-28 p-4 py-4">
         <div className="mx-2 md:text-left">
         <h3 className="md:text-4xl text-2xl  text-white font-extrabold">L'universite de Toukra </h3>

@@ -45,7 +45,7 @@ return()=>{
 
      <div onClick={()=>{
       setOpen(false)
-     }} className=" " id="btn">
+     }} className=" bg-sky-400 mx-1 p-[2px]" id="btn">
      <div className="btn"></div>
       <div className="btn"></div>
       <div className="btn"></div>
@@ -165,7 +165,7 @@ return()=>{
      <div onClick={()=>{
       setOpen(false)
      }}
-     className="" id="btn">
+     className="bg-sky-400 mx-1 p-[2px]" id="btn">
      <div className="btn"></div>
       <div className="btn"></div>
       <div className="btn"></div>
