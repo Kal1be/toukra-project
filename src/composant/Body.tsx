@@ -34,7 +34,7 @@ function Body() {
     }
   return (
     <div className="md:flex" id="mode">
-      <div className="md:mt-8 my-4">
+      <div className="xl:mt-8 my-4">
 {/* ++++++++++++++++++=========      ========================== the element of the body ++++++++++++++++++++++==================== */}
 <div className="md:flex lg:w-[800px] xl:w-[900px] justify-between mx-2 md:mx-8">
         {/* __+++++++++++++++++=================the cap +++++++++++++============================ */}
@@ -42,7 +42,7 @@ function Body() {
       initial={{y:10,opacity:0}}
       transition={{duration:1}}
       whileInView={{y:0,opacity:1}}
-       className="md:me-12 flex md:block justify-between my-4 md:my-0 w-full">
+       className="md:me-12 flex md:block justify-between xl:my-4 my-4  md:my-0 w-full">
             <img src="/toukra-project/sky.png" alt="l'icon ne peut" className="w-16"/>
                  <div className="mx-2 md:mx-0">
                  <h4 className="font-bold md:text-xl text-xl">Enseignement E-Learning</h4>
@@ -58,7 +58,7 @@ function Body() {
       initial={{y:10,opacity:0,scale:1}}
       transition={{duration:1}}
       whileInView={{y:0,opacity:1,scale:1}}
-      className="md:me-10 w-full flex md:block justify-between my-4 md:my-0">
+      className="md:me-10 w-full flex md:block justify-between xl:my-4 my-4  md:my-0">
                 <img src="/toukra-project/usersky.jpeg" alt="l'icon ne peut" className="w-16"/>
                 <div className="mx-2 md:mx-0">
                 <h4 className="font-bold  md:text-xl text-xl">Programme de premier
@@ -69,13 +69,13 @@ cycle</h4>
       </div>
 
       {/* +++++++++==================================== the under app +++++++++++++++++==================== */}
-      <div className=" lg:w-[800px] xl:w-[900px] md:flex justify-between  mx-2 my-4 md:mx-8">
+      <div className=" lg:w-[800px] xl:w-[900px] md:flex justify-between  mx-2 xl:my-4 my-4  md:mx-8">
         {/* __+++++++++++++++++=================the cap +++++++++++++============================ */}
       <motion.div 
       initial={{y:10,opacity:0}}
       transition={{duration:1.3}}
       whileInView={{y:0,opacity:1}}
-      className="md:me-14 w-full flex md:block justify-between my-4 md:my-0"
+      className="md:me-14 w-full flex md:block justify-between xl:my-4 my-4  md:my-0"
       >
             <img src="/toukra-project/cap.png" alt="l'icon ne peut" className="w-16"/>
            <div className="mx-2 md:mx-0">
@@ -88,7 +88,7 @@ cycle</h4>
       initial={{y:10,opacity:0}}
       transition={{duration:1}}
       whileInView={{y:0,opacity:1}}
-      className="md:me-10 w-full flex md:block justify-between my-4 md:my-0"
+      className="md:me-10 w-full flex md:block justify-between xl:my-4 my-4  md:my-0"
       >
                 <img src="/toukra-project/schoolsky.png" alt="l'icon ne peut" className="w-16"/>
                 <div className="mx-2 md:mx-0">
