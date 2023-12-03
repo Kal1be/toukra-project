@@ -22,8 +22,10 @@
   }
   #footer p{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
     color: gray;
+    margin: 2px 4px;
   }
 
   #footer h2{
@@ -42,8 +44,13 @@
         p{
             font-size: 16px;
     font-weight: 500;
+    font-family: "Roboto";
     color: rgb(44, 44, 44);
         }
+    }
+    h2{
+        font-size: 20px;
+        font-weight: bold;
     }
 }
 
@@ -60,7 +67,13 @@
                 font-size: 16px;
         font-weight: 400;
         color: rgb(44, 44, 44);
+        font-family: "Roboto",sans-serif;
             }
         }
+        h2{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
     }
 }

@@ -1,11 +1,11 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import { faFacebook,faXTwitter,faWhatsapp,faInstagram } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faFacebook,faXTwitter,faWhatsapp,faInstagram } from "@fortawesome/free-brands-svg-icons"
 // import { faChevronRight } from "@fortawesome/free-solid-svg-icons"
 import "./Footer.scss"
 import { Link } from "react-router-dom"
 function Footer() {
   return (
-    <div className="bg-gray-200 w-full mt-10">
+    <div className="bg-gray-200 w-full ">
     <div className="  md:flex justify-between md:px-16 px-4 py-4" id="footer">
       {/* _____________+++++++++++++++++++=============== the icon and the title of the footer_____________++++++++++++++++++=========== */}
       <div >
@@ -28,6 +28,7 @@ function Footer() {
          <li>service de sante universitaires</li>
          <li>Centre de Sante de nos etudiants</li>
          <li> Directions des Affaires</li>
+         <li> Directions des Affaires</li>
         </ul>
       </div>
       <div>
@@ -36,6 +37,7 @@ function Footer() {
           <li>Bibliotheques de l'universitè</li>
           <li>Politique et Confidentialitè</li>
           <li>Ecoles Normales superieures</li>
+          <li>Librairies de l'universitè</li>
           <li>Librairies de l'universitè</li>
         </ul>
       </div>
@@ -46,14 +48,22 @@ function Footer() {
         <li>Facultes de Sciences Humaines</li>
         <li>Facultes de Sciences Juridiques</li>
         <li>Facultes de Langues et Lettres</li>
+        <li>Facultes d'Art et Communication</li>
        </ul>
       </div>
     </div>
     <div id="lastf">
+      <div className="flex items-center md:gap-6 gap-5">
+        <h2 >Suivez nous sur:</h2>
+     <FontAwesomeIcon icon={faFacebook} className="text-xl text-sky-400"/>
+      <FontAwesomeIcon icon={faXTwitter}className="text-xl text-sky-400"/>
+    <a href="https://api.whatsapp.com/send?phone=9132021995&text=Salut%20Pourrais-je%20rejoindre%20le%20groupe%20de%20l'universite%20de%20Toukra!">  <FontAwesomeIcon icon={faWhatsapp} className="text-xl text-sky-400"/></a>
+      <FontAwesomeIcon icon={faInstagram} className="text-xl text-sky-400"/>
+     </div>
     <hr className="border"/>
     <div className=" md:flex justify-between md:px-16 px-6">
-    <p>Copyright &copy; 2023 Universite de Toukra, tous droits reserves.</p>
-    <p>Developpez par <Link to="/devsoftware" className="text-sky-400 underline">DevSoftware Yahoulbo</Link></p>
+    <p>Copyright &copy;2023 <span className="font-bold">Universite de <span className="text-sky-400"> Toukra</span></span>, tous droits reserves.</p>
+    <p>Powered by <Link to="/devsoftware" className="text-sky-400 underline">DevSoftware &copy;Group</Link></p>
     </div>
     </div>
     </div>

@@ -7,15 +7,16 @@ import { Link } from "react-router-dom"
 function TreeCard() {
   return (
    <div>
-     <div className="pt-10 pb-10" id="dounia">
+     <div className="md:pt-10 md:pb-10 pt-3 pb-12" id="dounia">
         <div className="text-center">
             <h3 className="md:text-4xl text-3xl mt-3 font-extrabold">Les Evenements</h3>
         <p className="md:text-xl text-md font-bold text-gray-800 my-2 md:mx-28">Lorem ipsum dolordistinctio  consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, veritatis!</p></div>
         <Treecard1/>
         <Treecard2/>
         <Treecard3/>
+        <Final/>
     </div>
-    <Final/>
+    
    </div>
   )
 }
@@ -25,17 +26,17 @@ export default TreeCard
 export const Treecard1 = ()=>{
     return(
         <motion.div 
-        initial={{opacity:0,x:-200}}
+        initial={{opacity:0,x:-50}}
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
-        className=" bg-white shadow-2xl md:flex justify-between md:mx-24 mx-4 mt-6 rounded-xl" id="modifiant">
+        className=" bg-white shadow-2xl md:flex justify-between md:mx-24 mx-2 mt-6 rounded-xl" id="modifiant">
             <img src="/toukra-project/class2.jpg" alt="" className="md:w-[35%] w-[92%] mx-2 md:mx-0"/>
             <div className="md:mx-6 mx-4">
             <h3 className="font-bold text-yellow-400">27 avril,2024</h3>
            <h3 className="md:text-2xl font-extrabold text-lg">Remise de Diplome de finalisation pour nos Laureats</h3>
             <div className="flex justify-between ">
-                <h2><FontAwesomeIcon icon={faClock} className="text-sky-400"/>12h:00 min</h2>
-               <h2> <FontAwesomeIcon icon={faLocation} className="text-sky-400"/>Maison de la Femme</h2>
+                <h2 className="font-bold"><FontAwesomeIcon icon={faClock} className="text-sky-400"/>12h:00 min</h2>
+               <h2 className="font-bold"> <FontAwesomeIcon icon={faLocation} className="text-sky-400"/>Maison de la Femme</h2>
               
             </div>
             <p className="md:text-2xl font-medium text-gray-800">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores aliquam minus iste tempora
@@ -51,10 +52,10 @@ export const Treecard1 = ()=>{
 export const Treecard2 = ()=>{
     return(
         <motion.div 
-        initial={{opacity:0,x:-200}}
+        initial={{opacity:0,x:-50}}
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
-         className=" bg-white shadow-2xl md:flex justify-between md:mx-24 mx-4 mt-10 rounded-xl" id="modifiant">
+         className=" bg-white shadow-2xl md:flex justify-between md:mx-24 mx-2 mt-10 rounded-xl" id="modifiant">
         <img src="/toukra-project/class3.jpg" alt="" className="md:w-[35%] w-[94%] mx-2 md:mx-0"/>
         <div className="md:mx-6 mx-4">
             <h3 className="font-bold text-yellow-400">27 Mars,2024</h3>
@@ -62,8 +63,8 @@ export const Treecard2 = ()=>{
 
 Des Concours organiser pour cette fin d'annee 2023-2024</h3>
             <div className="flex justify-between ">
-                <h2><FontAwesomeIcon icon={faClock} className="text-sky-400"/>14h:00 min</h2>
-               <h2> <FontAwesomeIcon icon={faLocation} className="text-sky-400"/>Maison de Culture</h2>
+                <h2 className="font-bold"><FontAwesomeIcon icon={faClock} className="text-sky-400"/>14h:00 min</h2>
+               <h2 className="font-bold"> <FontAwesomeIcon icon={faLocation} className="text-sky-400"/>Maison de Culture</h2>
               
             </div>
             <p className="md:text-2xl font-medium text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquam corrupti
@@ -78,18 +79,18 @@ Des Concours organiser pour cette fin d'annee 2023-2024</h3>
 export const Treecard3 = ()=>{
     return(
         <motion.div
-        initial={{opacity:0,x:-200}}
+        initial={{opacity:0,x:-50}}
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
-          className=" bg-white shadow-2xl md:flex justify-between md:mx-24 mx-4 mt-10 rounded-xl" id="modifiant">
+          className=" bg-white shadow-2xl md:flex justify-between md:mx-24 mx-2 mt-10 rounded-xl" id="modifiant">
         <img src="/toukra-project/football.png" alt="" className="md:w-[35%] w-[92%] mx-2 md:mx-0"/>
         <div className="md:mx-6 mx-4">
             <h3 className="font-bold text-yellow-400">27 avril,2024</h3>
            <h3 className="md:text-2xl font-extrabold text-lg">
 Championat entre l'universite de Toukra et celui de Gassi</h3>
             <div className="flex justify-between ">
-                <h2><FontAwesomeIcon icon={faClock} className="text-sky-400"/>15h:30 min</h2>
-               <h2> <FontAwesomeIcon icon={faLocation} className="text-sky-400"/>Avenue de Gaulle</h2>
+                <h2 className="font-bold"><FontAwesomeIcon icon={faClock} className="text-sky-400"/>15h:30 min</h2>
+               <h2 className="font-bold"> <FontAwesomeIcon icon={faLocation} className="text-sky-400"/>Avenue de Gaulle</h2>
               
             </div>
             <p className="md:text-2xl font-medium text-gray-800">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore voluptate nemo possimus iste culpa. Saepe, id
@@ -109,14 +110,14 @@ export const Final =()=>{
         initial={{opacity:0,scale:0.9}}
         transition={{duration:1}}
         whileInView={{opacity:1,scale:1}}
-        className="mt-10 bg-white">
+        className="mt-10 bg-white md:mx-8 mx-2">
             <h3 className="md:text-4xl text-2xl  font-extrabold mx-6 text-center">Les Evenements a venir</h3>
             <p className="text-center md:text-xl text-md font-bold text-gray-800 my-2 md:mx-28">Suivez nos listes des elements a venir sur la mise a jour et du futures de l'universite de Toukra</p>
-            <div className="md:flex  md:mx-6 mx-2 mt-8" >
+            <div className="md:flex  md:mx-6 mx-2 mt-8 md:py-6 pb-4" >
                 <div className="flex items-center">
                     <div className="mx-2">
                         <p className="md:w-16 md:h-16 h-16 w-16 bg-gray-200 flex items-center justify-center font-extrabold">12</p>
-                        <p className="md:w-16 md:h-16 h-20 w-16 bg-sky-400 flex items-center justify-center font-extrabold text-white">Dec</p>
+                        <p className="md:w-16 md:h-16 h-12 w-16 bg-sky-400 flex items-center justify-center font-extrabold text-white">Dec</p>
                     </div>
                     <div id="modifiante">
                         <h2 className="font-extrabold md:text-sm text-xl">Nouvelle mise a jour</h2>
@@ -130,7 +131,7 @@ export const Final =()=>{
                 <div className="flex items-center">
                     <div className="mx-2">
                         <p className="md:w-16 md:h-16 h-16 w-16 bg-gray-200 flex items-center justify-center font-extrabold">17</p>
-                        <p className="md:w-16 md:h-16 h-20 w-16 bg-sky-400 flex items-center justify-center font-extrabold text-white">Mars</p>
+                        <p className="md:w-16 md:h-16 h-12 w-16 bg-sky-400 flex items-center justify-center font-extrabold text-white">Mars</p>
                     </div>
                     <div id="modifiante">
                         <h2 className="font-extrabold md:text-sm text-xl">Rencontre des dirigeants</h2>
@@ -145,7 +146,7 @@ export const Final =()=>{
                 <div className="flex items-center">
                     <div className="mx-2">
                         <p className="md:w-16 md:h-16 h-16 w-16 bg-gray-200 flex items-center justify-center font-extrabold">27</p>
-                        <p className="md:w-16 md:h-16 h-20 w-16 bg-sky-400 flex items-center justify-center font-extrabold text-white">Jan</p>
+                        <p className="md:w-16 md:h-16 h-12 w-16 bg-sky-400 flex items-center justify-center font-extrabold text-white">Jan</p>
                     </div>
                     <div id="modifiante">
                         <h2 className="font-extrabold md:text-sm text-xl">Depots en ligne</h2>
@@ -159,7 +160,7 @@ export const Final =()=>{
                 <div className="flex items-center">
                     <div className="mx-2">
                         <p className="md:w-16 md:h-16 h-16 w-16 bg-gray-200 flex items-center justify-center font-extrabold">23</p>
-                        <p className="md:w-16 md:h-16 h-20 w-16 bg-sky-400 flex items-center justify-center font-extrabold text-white">April</p>
+                        <p className="md:w-16 md:h-16 h-16 w-16 bg-sky-400 flex items-center justify-center font-extrabold text-white">April</p>
                     </div>
                     <div id="modifiante">
                         <h2 className="font-extrabold md:text-sm text-xl">Examen generale</h2>

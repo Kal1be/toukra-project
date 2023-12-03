@@ -26,7 +26,7 @@ return()=>{
   },[navbar])
   return (
     <div>
-      <div className="flex justify-between items-center md:py-2 py-2 px-2 font-bold shadow-xl" id="headerNav">
+      <div className="flex justify-between items-center md:py-2 py-1 px-2 font-bold" id="headerNav">
       <div className="flex justify-between w-screen items-center">
 
         {/*_+++++++++++++++=========================== the navbar and the element+++++++++++++++++++=================================================*/}
@@ -56,10 +56,10 @@ return()=>{
 
       <motion.div>
         <ul className="xl:w-[750px] md:w-[530px] md:flex justify-between" id={open?"hid":"hid active"}>
-          <FontAwesomeIcon icon={faClose} className="text-2xl" onClick={()=>{
+          <FontAwesomeIcon icon={faClose} className="icon text-2xl" onClick={()=>{
             setOpen(true)
           }}/>
-            <li> <Link to="/">Accueil</Link>
+            <li> <Link to="/toukra-project">Accueil</Link>
 
      {/* +++++++++++++++++++++============================== the dropdown menu +++++++++++++++++++++++++++++++++++++++================================ */}
 
@@ -145,7 +145,7 @@ return()=>{
      whileInView={{opacity:1}}
      id={navbar? "nav":"header"}>
 
-     <div className="flex justify-between items-center border shadow-2xl md:py-2 py-2 px-2 font-bold bg-gray-200" id="headerNav">
+     <div className="flex justify-between items-center border shadow-2xl md:py-1 py-2 px-2 font-bold bg-gray-200" id="headerNav">
       <div className="flex justify-between w-screen items-center">
 
         {/*_+++++++++++++++=========================== the navbar and the element+++++++++++++++++++=================================================*/}
@@ -177,7 +177,7 @@ return()=>{
 
       <motion.div>
         <ul className="xl:w-[750px] md:w-[530px] md:flex justify-between" id={open?"hid":"hid active"}>
-          <FontAwesomeIcon icon={faClose} className="text-2xl" onClick={()=>{
+          <FontAwesomeIcon icon={faClose} className="icon text-2xl" onClick={()=>{
             setOpen(true)
           }}/>
             <li>Accueil

@@ -122,21 +122,21 @@ La vie universitaire</h4>
       transition={{duration:1}}
       whileInView={{opacity:1,y:0}}
       onSubmit={handleSubmit} className="relative md:-top-28 xl:me-8  border p-4 mx-2 shadow-2xl rounded-2xl my-3 bg-white">
-<h3 className="xl:text-2xl text-xl font-bold">Ecrivez-nous et savoir plus sur nos differents Programmes.</h3>
+<h3 className="xl:text-2xl text-lg font-bold">Ecrivez-nous et savoir plus sur nos differents Programmes.</h3>
 <div className="my-2">
-  <label htmlFor="name" className="text-lg font-medium ">Nom d'Utilisateur</label> 
+  <label htmlFor="name" className="text-md font-medium ">Nom d'Utilisateur</label> 
  <div>
  <input type="text" placeholder="entrer votre nom" className="w-full border outline-none py-2 px-1 rounded-lg" /> 
  </div>
 </div>
 <div  className="my-2">
-<label htmlFor="name"  className="text-lg font-medium">Votre Email</label> 
+<label htmlFor="name"  className="text-md font-medium">Votre Email</label> 
  <div>
  <input type="text" placeholder="entrer votre Email" className="w-full border outline-none py-2 px-1 rounded-lg" /> 
  </div>
 </div>
 <div>
-    <label htmlFor="text" className="text-lg font-medium ">Entrer votre message</label>
+    <label htmlFor="text" className="text-md font-medium ">Entrer votre message</label>
     <textarea name="text" id="text"  cols={20} rows={7} className="w-full border outline-none rounded-2xl"></textarea>
 </div>
 <button className="w-full bg-sky-400 text-white p-2 my-2 rounded-md font-bold">Envoyer votre message <FontAwesomeIcon icon={faPaperPlane}/></button>

@@ -34,10 +34,9 @@ function Caroussel() {
   draggable={true}
   autoPlay={true}
   autoPlaySpeed={4000}
-  transitionDuration={500}
   itemClass="carousel-item-padding-10-px"
   removeArrowOnDeviceType={["tablet", "mobile"]}
-
+//  showDots={true}
   // swipeable={false}
   // draggable={false}
   // showDots={true}
@@ -92,12 +91,11 @@ function Caroussel() {
  <div>
         <p>Bienvenue a l'universite Toukra</p>
       <motion.h2
-       initial={{opacity:0,x:-70,scale:0.8}}
+       initial={{opacity:0,y:-70,scale:0.8}}
        transition={{duration:1}}
-     whileInView={{scale:1,opacity:1,x:0}}
+     whileInView={{scale:1,opacity:1,y:0}}
       >
-            <motion.h2
-            >L'Education est la cles de success d'une vie reussie.</motion.h2>
+        L'Education est la cles de success d'une vie reussie.
             </motion.h2>
             <motion.button
             initial={{opacity:0,x:-100}}
@@ -122,7 +120,7 @@ function Caroussel() {
  <div>
         <p>Bienvenue devant E-learning</p>
       <motion.h2
-       initial={{opacity:0,x:-70,scale:0.8}}
+       initial={{opacity:0,x:70,scale:0.8}}
        transition={{duration:1}}
        whileInView={{scale:1,opacity:1,x:0}}
         >

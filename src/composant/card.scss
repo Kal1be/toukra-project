@@ -17,10 +17,12 @@ p{
 }
 
 @media(max-width:850px){
-    #modifiante p{
-        font-size: 17px;
-                font-weight:bold;
+    #modifiant{
+        p{
+            font-size: 17px;
+                font-weight:400;
                 line-height: 1.8rem;
                 color: gray;
+        }
     }
 }
