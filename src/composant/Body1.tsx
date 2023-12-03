@@ -39,7 +39,7 @@ return (
      infinite={true}
      keyBoardControl={false}
      renderButtonGroupOutside={false}
-    //  removeArrowOnDeviceType={[ "mobile"]}
+     removeArrowOnDeviceType={[ "mobile"]}
     > 
         <MyCarousel/>
         <MyCarousel1/>

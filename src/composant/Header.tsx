@@ -26,7 +26,7 @@ return()=>{
   },[navbar])
   return (
     <div>
-      <div className="flex justify-between items-center md:py-2 py-1 px-2 font-bold" id="headerNav">
+      <div className="flex justify-between items-center md:py-2 py-3 px-2 font-bold shadow-2xl" id="headerNav">
       <div className="flex justify-between w-screen items-center">
 
         {/*_+++++++++++++++=========================== the navbar and the element+++++++++++++++++++=================================================*/}
@@ -45,7 +45,7 @@ return()=>{
 
      <div onClick={()=>{
       setOpen(false)
-     }} className=" bg-sky-400 px-1 py-1 mx-1" id="btn">
+     }} className=" bg-sky-400 px-1 py-1 mx-1 -mt-1" id="btn">
      <div className="btn"></div>
       <div className="btn"></div>
       <div className="btn"></div>
@@ -55,7 +55,7 @@ return()=>{
       {/* +++++++++++++++++++++++========================the start of the element ul and the dropdown+===========================+++++++++++++++++++++ */}
 
       <motion.div>
-        <ul className="xl:w-[750px] md:w-[530px] md:flex justify-between" id={open?"hid":"hid active"}>
+        <ul className="xl:w-[750px] md:w-[590px] md:flex justify-between absolute md:static left-0" id={open?"hid":"hid active"}>
           <FontAwesomeIcon icon={faClose} className="icon text-2xl" onClick={()=>{
             setOpen(true)
           }}/>
@@ -126,11 +126,10 @@ return()=>{
             <li className="dropdown_3"><motion.span>Bibliotheques</motion.span>
             <div className="" id="dropdown2">
             <ul>
-              <li>Privacy et Confidentiale</li>
-              <li>Centre de Conseil et d'orientation</li>
-              <li>Bureau generale</li>
-              <li>Service d'accueil de l'universite</li>
-              <li>Gestionaire et Chef en control</li>
+              <li>Document</li>
+              <li>Documentaire</li>
+              <li>Historique</li>
+               <li>Avoir de l'aide</li>
             </ul>
             </div>
             </li>
@@ -176,7 +175,7 @@ return()=>{
       {/* +++++++++++++++++++++++========================the start of the element ul and the dropdown+===========================+++++++++++++++++++++ */}
 
       <motion.div>
-        <ul className="xl:w-[750px] md:w-[530px] md:flex justify-between" id={open?"hid":"hid active"}>
+        <ul className="xl:w-[750px] md:w-[530px] md:flex justify-between absolute md:static left-0" id={open?"hid":"hid active"}>
           <FontAwesomeIcon icon={faClose} className="icon text-2xl" onClick={()=>{
             setOpen(true)
           }}/>

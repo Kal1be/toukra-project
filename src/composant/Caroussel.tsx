@@ -1,145 +1,164 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import {motion} from "framer-motion"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser,faHome,faCheck, faExclamationCircle, faTools } from "@fortawesome/free-solid-svg-icons";
 import "./carousel.scss"
-import { Image, Image1, Image3 } from "./Image";
-const responsive = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 3000 },
-    items: 1
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 1
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 766 },
-    items: 1
-  },
-  mobile: {
-    breakpoint: { max: 766, min: 0 },
-    items: 1
-  }
-};
+import { motion } from "framer-motion";
+// const responsive = {
+//   superLargeDesktop: {
+//     // the naming can be any, depends on you.
+//     breakpoint: { max: 4000, min: 3000 },
+//     items: 1
+//   },
+//   desktop: {
+//     breakpoint: { max: 3000, min: 1024 },
+//     items: 1
+//   },
+//   tablet: {
+//     breakpoint: { max: 1024, min: 766 },
+//     items: 1
+//   },
+//   mobile: {
+//     breakpoint: { max: 766, min: 0 },
+//     items: 1
+//   }
+// };
 
 
 function Caroussel() {
   return (
-    <Carousel
-  responsive={responsive}
-  infinite={true}
-  draggable={true}
-  autoPlay={true}
-  autoPlaySpeed={4000}
-  itemClass="carousel-item-padding-10-px"
-  removeArrowOnDeviceType={["tablet", "mobile"]}
-//  showDots={true}
-  // swipeable={false}
-  // draggable={false}
-  // showDots={true}
-  // responsive={responsive}
-  // ssr={true} // means to render carousel on server-side.
-  // infinite={true}
-  // // autoPlay={this.props.deviceType !== "mobile" ? true : false}
-  // autoPlaySpeed={1000}
-  // keyBoardControl={true}
-  // customTransition="all .5"
-  // transitionDuration={500}
-  // containerClass="carousel-container"
-  // removeArrowOnDeviceType={["tablet", "mobile"]}
-  // // deviceType={this.props.deviceType}
-  // dotListClass="custom-dot-list-style"
-  // itemClass="carousel-item-padding-40-px"
->
-  <div className="my-image">
-    <div className="my-image">
-    <div className=" flex justify-center absolute  text-white  font-bold  items-center"  id="div">
-    <div className="flex items-center text-center">
- <div>
-        <p>Bienvenue a l'universite de Toukra</p>
-      <motion.h2
-       initial={{opacity:0,x:-70,scale:0.8}}
-       transition={{duration:1}}
-       whileInView={{scale:1,opacity:1,x:0}}
+//     <Carousel
+//   responsive={responsive}
+//   infinite={true}
+//   draggable={true}
+//   autoPlay={true}
+//   autoPlaySpeed={4000}
+//   itemClass="carousel-item-padding-10-px"
+//   removeArrowOnDeviceType={["tablet", "mobile"]}
+// //  showDots={true}
+//   // swipeable={false}
+//   // draggable={false}
+//   // showDots={true}
+//   // responsive={responsive}
+//   // ssr={true} // means to render carousel on server-side.
+//   // infinite={true}
+//   // // autoPlay={this.props.deviceType !== "mobile" ? true : false}
+//   // autoPlaySpeed={1000}
+//   // keyBoardControl={true}
+//   // customTransition="all .5"
+//   // transitionDuration={500}
+//   // containerClass="carousel-container"
+//   // removeArrowOnDeviceType={["tablet", "mobile"]}
+//   // // deviceType={this.props.deviceType}
+//   // dotListClass="custom-dot-list-style"
+//   // itemClass="carousel-item-padding-40-px"
+// >
+//   <div className="my-image">
+//     <div className="my-image">
+//     <div className=" flex justify-center absolute  text-white  font-bold  items-center"  id="div">
+//     <div className="flex items-center text-center">
+//  <div>
+//         <p>Bienvenue a l'universite de Toukra</p>
+//       <motion.h2
+//        initial={{opacity:0,x:-70,scale:0.8}}
+//        transition={{duration:1}}
+//        whileInView={{scale:1,opacity:1,x:0}}
         
-        >
-            <motion.h2
-            >L'Education est la cles du success d'une nation et pensee innovative</motion.h2>
-            </motion.h2>
-            <motion.button
-            initial={{opacity:0,x:-100}}
-            transition={{duration:1}}
-            whileInView={{scale:1,opacity:1,x:0}}
-             >Programmes</motion.button>
-  </div>
- </div>
-  </div>
+//         >
+//             <motion.h2
+//             >L'Education est la cles du success d'une nation et pensee innovative</motion.h2>
+//             </motion.h2>
+//             <motion.button
+//             initial={{opacity:0,x:-100}}
+//             transition={{duration:1}}
+//             whileInView={{scale:1,opacity:1,x:0}}
+//              >Programmes</motion.button>
+//   </div>
+//  </div>
+//   </div>
 
-  <Image/>
-    </div>
-  </div>
-  <div>
+//   <Image/>
+//     </div>
+//   </div>
+//   <div>
 
-{/* ____________++++++++++++++++++++++++++++++++++++++ ============= the first element _+++++++++++++______________++++++++++++++++++++++++========= */}
+// {/* ____________++++++++++++++++++++++++++++++++++++++ ============= the first element _+++++++++++++______________++++++++++++++++++++++++========= */}
 
-<div className="my-image">
-<div className=" flex justify-center absolute  text-text-white  font-bold  items-center " id="div">
-<div className="flex items-center text-center  ">
- <div>
-        <p>Bienvenue a l'universite Toukra</p>
-      <motion.h2
-       initial={{opacity:0,y:-70,scale:0.8}}
-       transition={{duration:1}}
-     whileInView={{scale:1,opacity:1,y:0}}
-      >
-        L'Education est la cles de success d'une vie reussie.
-            </motion.h2>
-            <motion.button
-            initial={{opacity:0,x:-100}}
-            transition={{duration:1}}
-            whileInView={{scale:1,opacity:1,x:0}}
-             >Programmes</motion.button>
-  </div>
- </div>
-  </div>
+// <div className="my-image">
+// <div className=" flex justify-center absolute  text-text-white  font-bold  items-center " id="div">
+// <div className="flex items-center text-center  ">
+//  <div>
+//         <p>Bienvenue a l'universite Toukra</p>
+//       <motion.h2
+//        initial={{opacity:0,y:-70,scale:0.8}}
+//        transition={{duration:1}}
+//      whileInView={{scale:1,opacity:1,y:0}}
+//       >
+//         L'Education est la cles de success d'une vie reussie.
+//             </motion.h2>
+//             <motion.button
+//             initial={{opacity:0,x:-100}}
+//             transition={{duration:1}}
+//             whileInView={{scale:1,opacity:1,x:0}}
+//              >Programmes</motion.button>
+//   </div>
+//  </div>
+//   </div>
 
 
   
-<Image1/>
-</div>
-  </div>
+// <Image1/>
+// </div>
+//   </div>
 
-{/* ++++++++++++++++++++==================the second cont +++++++++++++++++=========================_______________+++++++++++++++++++++++ */}
+// {/* ++++++++++++++++++++==================the second cont +++++++++++++++++=========================_______________+++++++++++++++++++++++ */}
  
-  <div className="my-image">
-  <div className=" flex justify-center absolute  text-white  font-bold  items-center  " id="div">
-  <div className="flex items-center text-center ">
- <div>
-        <p>Bienvenue devant E-learning</p>
-      <motion.h2
-       initial={{opacity:0,x:70,scale:0.8}}
+//   <div className="my-image">
+//   <div className=" flex justify-center absolute  text-white  font-bold  items-center  " id="div">
+//   <div className="flex items-center text-center ">
+//  <div>
+//         <p>Bienvenue devant E-learning</p>
+//       <motion.h2
+//        initial={{opacity:0,x:70,scale:0.8}}
+//        transition={{duration:1}}
+//        whileInView={{scale:1,opacity:1,x:0}}
+//         >
+//             <motion.h2
+//             >Mahamat Saleh Haggar vous souhaite la bienvenue</motion.h2>
+//             </motion.h2>
+//             <motion.button
+//             initial={{opacity:0,x:-100}}
+//             transition={{duration:1}}
+//             whileInView={{scale:1,opacity:1,x:0}}
+//              >Programmes</motion.button>
+//   </div>
+//  </div>
+//   </div>
+//   {/* +++++++++++++++++++++====================== the four content ++++++++++++++++++++++++++++============================= */}
+ 
+//   <Image3/>
+//  </div>
+// </Carousel>''
+
+<div className="back">
+  <div className="back1">
+    <p>Bienvenue a l'universite de Toukra</p>
+    <motion.h2
+       initial={{opacity:0,x:-70}}
        transition={{duration:1}}
        whileInView={{scale:1,opacity:1,x:0}}
-        >
-            <motion.h2
-            >Mahamat Saleh Haggar vous souhaite la bienvenue</motion.h2>
-            </motion.h2>
-            <motion.button
-            initial={{opacity:0,x:-100}}
-            transition={{duration:1}}
-            whileInView={{scale:1,opacity:1,x:0}}
-             >Programmes</motion.button>
+       >L'Education est la cles du success 
+        <motion.span
+       initial={{opacity:0,x:-70}}
+       transition={{duration:4}}
+       whileInView={{scale:1,opacity:1,x:0}}
+       className="ms-1">d'une nation et pensee innovative</motion.span></motion.h2>
+    <div>
+      <button>Programme</button>
+      <button>Lire plus</button>
+    </div>
   </div>
- </div>
-  </div>
-  {/* +++++++++++++++++++++====================== the four content ++++++++++++++++++++++++++++============================= */}
- 
-  <Image3/>
- </div>
-</Carousel>
+</div>
   )
 }
 

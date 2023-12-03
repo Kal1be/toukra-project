@@ -14,7 +14,6 @@ function TreeCard() {
         <Treecard1/>
         <Treecard2/>
         <Treecard3/>
-        <Final/>
     </div>
     
    </div>
