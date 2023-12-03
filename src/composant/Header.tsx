@@ -26,7 +26,7 @@ return()=>{
   },[navbar])
   return (
     <div>
-      <div className="flex justify-between items-center md:py-2 py-2 px-2 font-bold shadow-2xl" id="headerNav">
+      <div className="flex justify-between items-center md:py-2 py-2 px-1 font-bold shadow-2xl" id="headerNav">
       <div className="flex justify-between w-screen items-center">
 
         {/*_+++++++++++++++=========================== the navbar and the element+++++++++++++++++++=================================================*/}

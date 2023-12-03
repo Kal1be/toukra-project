@@ -162,7 +162,7 @@ function Caroussel() {
        >L'Education est la cles du success 
         <motion.span
        initial={{opacity:0,x:-70}}
-       transition={{duration:4}}
+       transition={{duration:2}}
        whileInView={{scale:1,opacity:1,x:0}}
        className="ms-1">d'une nation et pensee innovative</motion.span></motion.h2>
          <div>
@@ -180,7 +180,7 @@ function Caroussel() {
        >Mahamat Saleh Haggar vous souhaite la bienvenue
         <motion.span
        initial={{opacity:0,x:-70}}
-       transition={{duration:4}}
+       transition={{duration:2}}
        whileInView={{scale:1,opacity:1,x:0}}
        className="ms-1">a l'universite</motion.span></motion.h2>
          <div>
@@ -198,9 +198,9 @@ function Caroussel() {
        >L'Education est la cles de
         <motion.span
        initial={{opacity:0,x:-70}}
-       transition={{duration:4}}
+       transition={{duration:2}}
        whileInView={{scale:1,opacity:1,x:0}}
-       className="ms-1">  success d'une vie reussie et pas d'excuse</motion.span></motion.h2>
+       className="ms-1">  success d'une vie reussie et pas d'excuse pour sa.</motion.span></motion.h2>
          <div>
       <button>Programme</button>
       <button>Lire plus</button>

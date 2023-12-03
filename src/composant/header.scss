@@ -55,13 +55,16 @@
             font-family: "Oswald",sans-serif;
             font-size: 16px;
         }
+        li:hover{
+          background-color: gainsboro;
+        }
     }
   }
 // ________+++++++++++++++================== the dropdown menu and is own element ____________++++++++++++++++++======================
   #dropdown1{
     position: absolute;
     background-color:white;
-    padding: 10px 10px;
+    padding: 10px 0;
     opacity: 0;
    margin-top: 20px;
     visibility: hidden;
@@ -75,10 +78,16 @@
 
   #dropdown1 ul li{
     color: black !important;
-            font-weight:400 !important;
-            padding: 12px 0 !important;
+            font-weight:600 !important;
+            padding: 12px 10px !important;
             font-family: "Oswald",sans-serif;
             font-size: 16px;
+            padding: 10px;
+  }
+  #dropdown1 ul li:hover{
+  background-color: 
+  gainsboro;
+ 
   }
 
   .dropdown_2:hover #dropdown1{
@@ -93,23 +102,27 @@
   #dropdown2{
     position: absolute;
     background-color:white;
-    padding: 10px 10px;
+    padding: 10px 0;
     opacity: 0;
    margin-top: 20px;
     visibility: hidden;
     display: none;
     animation: felix .14s linear;
     z-index: 20000;
-    width: 12%;
+    width: 11.7%;
     margin-left:-4.1%;
     border-top: 1px solid rgb(72, 200, 255);
   }
   #dropdown2 ul li{
     color: black !important;
-            font-weight:400 !important;
+            font-weight:500 !important;
             padding: 12px 0 !important;
             font-family: "Oswald",sans-serif;
             font-size: 16px;
+            padding: 10px 10px !important;
+  }
+  #dropdown2 ul li:hover{
+    background-color: gainsboro;
   }
   .dropdown_3:hover #dropdown2{
     opacity: 1;
@@ -242,16 +255,16 @@
   
     .btn{
         width: 24px;
-        height: 3px;
-        background-color:rgba(0, 0, 0, 0.767);
-        margin: 4px 0;
+        height: 2px;
+        background-color:rgba(62, 62, 62, 0.767);
+        margin: 5px 6px;
       }
       // +++++++++++++++++===================the id for ul element ++++++++++++=====================================================
 
       #headerNav {
 
         ul{
-          background-color: white;
+          background-color: white !important;
           z-index: 2000;
           width: 100%;
           top: 0;

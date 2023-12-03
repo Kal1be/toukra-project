@@ -40,7 +40,7 @@
 #lastf{
     padding: 10px;
     div{
-        padding: 16px 5%;
+        padding: 10px 5%;
         p{
             font-size: 16px;
     font-weight: 500;
@@ -57,17 +57,17 @@
 @media(max-width:766px){
     #lastf hr{
         border: 1px solid gray;
-        margin: 2px 2%;
+        margin: 1px 2%;
     }
     #lastf{
         padding: 10px;
         div{
-            padding: 16px 2%;
+            padding: 10px 2%;
             p{
-                font-size: 16px;
-        font-weight: 400;
+                font-size: 15px;
+        font-weight: 500;
         color: rgb(44, 44, 44);
-        font-family: "Roboto",sans-serif;
+        font-family: 'Times New Roman', Times, serif;
             }
         }
         h2{

@@ -62,7 +62,7 @@ function Footer() {
      </div>
     <hr className="border"/>
     <div className=" md:flex justify-between md:px-16 px-6">
-    <p>Copyright &copy;2023 <span className="font-bold">Universite de <span className="text-sky-400"> Toukra</span></span>, tous droits reserves.</p>
+    <p>Copyright &copy;2023 <span className="font-medium">Universite de <span className="text-sky-400"> Toukra</span></span>, tous droits reserves.</p>
     <p>Powered by <Link to="/devsoftware" className="text-sky-400 underline">DevSoftware &copy;Group</Link></p>
     </div>
     </div>
