@@ -17,17 +17,17 @@ function Center() {
                 initial={{scale:1}}
                 transition={{duration:1}}
                 whileHover={{scale:1}}
-                src="/toukra-project/etudian.jpg" alt=""  className="lg:w-[90%] xl:h-[700px] md:h-[700px] h-[450px]"/>
+                src="/toukra-project/etudian.jpg" alt=""  className="lg:w-[98%] xl:h-[600px] md:h-[700px] h-[450px]"/>
             </div>
             <div className="md:w-[60%] lg:mt-10 mt-4" id="mode1">
-            <h3 className="xl:text-5xl font-extrabold text-xl">
+            <h3 className="xl:text-4xl font-extrabold text-xl">
             Nous sommes une institution d'apprentissage et d'expertisme</h3>
             <h6 className="text-sky-400 xl:text-4xl text-md font-bold lg:mt-6 mt-2">50ans d'expertiste et d'experience</h6>
              <motion.p
              initial={{opacity:0,y:-10}}
              transition={{duration:1}}
              whileInView={{opacity:1,y:0,scale:1}}
-             className="xl:text-2xl text-lg font-md text-justify">
+             className="xl:text-xl text-lg font-md text-justify">
                
              "L'Université de Toukra est une grande Université comparable
               à tout autre Université, engager dans la transmission de la

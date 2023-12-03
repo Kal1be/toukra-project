@@ -34,8 +34,8 @@ return (
        <Carousel
      responsive={responsive}
      draggable={true}
-    //  autoPlay={true}
-    //  autoPlaySpeed={8000}
+     autoPlay={true}
+     autoPlaySpeed={8000}
      infinite={true}
      keyBoardControl={false}
      renderButtonGroupOutside={false}

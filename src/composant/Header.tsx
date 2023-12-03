@@ -26,7 +26,7 @@ return()=>{
   },[navbar])
   return (
     <div>
-      <div className="flex justify-between items-center md:py-2 py-3 px-2 font-bold shadow-2xl" id="headerNav">
+      <div className="flex justify-between items-center md:py-2 py-2 px-2 font-bold shadow-2xl" id="headerNav">
       <div className="flex justify-between w-screen items-center">
 
         {/*_+++++++++++++++=========================== the navbar and the element+++++++++++++++++++=================================================*/}
@@ -45,7 +45,7 @@ return()=>{
 
      <div onClick={()=>{
       setOpen(false)
-     }} className=" bg-sky-400 px-1 py-1 mx-1 -mt-1" id="btn">
+     }} className=" " id="btn">
      <div className="btn"></div>
       <div className="btn"></div>
       <div className="btn"></div>
@@ -144,7 +144,7 @@ return()=>{
      whileInView={{opacity:1}}
      id={navbar? "nav":"header"}>
 
-     <div className="flex justify-between items-center border shadow-2xl md:py-1 py-2 px-2 font-bold bg-gray-200" id="headerNav">
+     <div className="flex justify-between items-center border shadow-2xl md:py-1 py-2 px-2 font-bold bg-white" id="headerNav">
       <div className="flex justify-between w-screen items-center">
 
         {/*_+++++++++++++++=========================== the navbar and the element+++++++++++++++++++=================================================*/}
@@ -165,7 +165,7 @@ return()=>{
      <div onClick={()=>{
       setOpen(false)
      }}
-     className=" bg-sky-400 px-1 py-1 mx-1" id="btn">
+     className="" id="btn">
      <div className="btn"></div>
       <div className="btn"></div>
       <div className="btn"></div>
@@ -244,11 +244,10 @@ return()=>{
             <li className="dropdown_3"><motion.span>Bibliotheques</motion.span>
             <div className="" id="dropdown2">
             <ul>
-              <li>Privacy et Confidentiale</li>
-              <li>Centre de Conseil et d'orientation</li>
-              <li>Bureau generale</li>
-              <li>Service d'accueil de l'universite</li>
-              <li>Gestionaire et Chef en control</li>
+            <li>Document</li>
+              <li>Documentaire</li>
+              <li>Historique</li>
+               <li>Avoir de l'aide</li>
             </ul>
             </div>
             </li>

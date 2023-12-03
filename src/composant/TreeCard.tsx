@@ -26,7 +26,7 @@ export const Treecard1 = ()=>{
     return(
         <motion.div 
         initial={{opacity:0,x:-50}}
-        transition={{duration:1}}
+        transition={{duration:.6}}
         whileInView={{opacity:1,x:0}}
         className=" bg-white shadow-2xl md:flex justify-between md:mx-24 mx-2 mt-6 rounded-xl" id="modifiant">
             <img src="/toukra-project/class2.jpg" alt="" className="md:w-[35%] w-[92%] mx-2 md:mx-0"/>
@@ -52,7 +52,7 @@ export const Treecard2 = ()=>{
     return(
         <motion.div 
         initial={{opacity:0,x:-50}}
-        transition={{duration:1}}
+        transition={{duration:.6}}
         whileInView={{opacity:1,x:0}}
          className=" bg-white shadow-2xl md:flex justify-between md:mx-24 mx-2 mt-10 rounded-xl" id="modifiant">
         <img src="/toukra-project/class3.jpg" alt="" className="md:w-[35%] w-[94%] mx-2 md:mx-0"/>
@@ -79,7 +79,7 @@ export const Treecard3 = ()=>{
     return(
         <motion.div
         initial={{opacity:0,x:-50}}
-        transition={{duration:1}}
+        transition={{duration:.6}}
         whileInView={{opacity:1,x:0}}
           className=" bg-white shadow-2xl md:flex justify-between md:mx-24 mx-2 mt-10 rounded-xl" id="modifiant">
         <img src="/toukra-project/football.png" alt="" className="md:w-[35%] w-[92%] mx-2 md:mx-0"/>

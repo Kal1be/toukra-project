@@ -11,13 +11,13 @@
 }
 .back1{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.767);
+    background-color: rgba(0, 0, 0, 0.558);
     width: 100%;
     height: 80vh;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 22vh;
+    padding-top: 20vh;
 }
 
 .back1 h2{
@@ -41,7 +41,7 @@
     transition: .33s linear;
 }
 .back1 button:nth-child(1):hover{
-    background-color: white;
+    background-color: white !important;
     color: #0c9cda;
 }
 .back1 button:nth-child(2){
@@ -54,7 +54,7 @@
 
 }
 .back1 button:nth-child(2):hover{
-    background-color: #0c9cda;
+    background-color: #0c9cda !important;
     color: white;
 }
 
