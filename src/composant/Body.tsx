@@ -36,7 +36,7 @@ function Body() {
     <div className="md:flex" id="mode">
       <div className="xl:mt-8 my-4">
 {/* ++++++++++++++++++=========__========================== the element of the body ++++++++++++++++++++++==================== */}
-<div className="md:flex lg:w-[800px] xl:w-[900px] justify-between mx-2 md:mx-8">
+<div className="md:flex lg:w-[800px] xl:w-[900px] justify-between mx-1 md:mx-8">
         {/* __+++++++++++++++++=================the cap +++++++++++++============================ */}
       <motion.div 
       initial={{y:10,opacity:0}}

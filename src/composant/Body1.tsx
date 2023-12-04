@@ -35,7 +35,7 @@ return (
      responsive={responsive}
      draggable={true}
      autoPlay={true}
-     autoPlaySpeed={8000}
+     autoPlaySpeed={5000}
      infinite={true}
      keyBoardControl={false}
      renderButtonGroupOutside={false}

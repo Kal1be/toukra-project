@@ -7,6 +7,7 @@ import Flip, { Flip1 } from "../composant/Flip"
 import Body1 from "../composant/Body1"
 import TreeCard from "../composant/TreeCard"
 import Cookies from "../composant/Cookies"
+import Scroll from "../composant/Scroll"
 function Home() {
   return (
     <div>
@@ -22,6 +23,7 @@ function Home() {
   <Body1/>
   <TreeCard/>
  <Cookies/>
+ <Scroll/>
     </div>
   )
 }
