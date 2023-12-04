@@ -25,7 +25,7 @@ function Scroll() {
       window.addEventListener('scroll', toggleVisible); 
   return (
     <div>
-       <p onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}} className="fixed bg-sky-400 bottom-4 md:right-6 right-4 p-2 text-white">
+       <p onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}} className="fixed bg-sky-400 bottom-4 md:right-6 right-4 py-2 px-3 text-white">
         <FontAwesomeIcon icon={faChevronUp}/>
         </p>
     </div>

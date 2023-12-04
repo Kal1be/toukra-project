@@ -55,7 +55,7 @@ return()=>{
       {/* +++++++++++++++++++++++========================the start of the element ul and the dropdown+===========================+++++++++++++++++++++ */}
 
       <motion.div>
-        <ul className="xl:w-[750px] md:w-[590px] md:flex justify-between absolute md:static left-0" id={open?"hid":"hid active"}>
+        <ul className="xl:w-[750px] md:w-[540px] md:flex justify-between absolute md:static left-0" id={open?"hid":"hid active"}>
           <FontAwesomeIcon icon={faClose} className="icon text-2xl" onClick={()=>{
             setOpen(true)
           }}/>
