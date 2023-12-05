@@ -5,7 +5,7 @@ import "./Footer.scss"
 import { Link } from "react-router-dom"
 function Footer() {
   return (
-    <div className="bg-gray-200 w-full ">
+    <div className="bg-gray-200 w-full static">
     <div className="  md:flex justify-between md:px-16 px-4 py-4" id="footer">
       {/* _____________+++++++++++++++++++=============== the icon and the title of the footer_____________++++++++++++++++++=========== */}
       <div >
@@ -63,7 +63,7 @@ function Footer() {
     <hr className="border"/>
     <div className=" md:flex justify-between md:px-16 px-6">
     <p>Copyright &copy;2023 <span className="font-medium">Universite de <span className="text-sky-400"> Toukra</span></span>, tous droits reserves.</p>
-    <p>Powered by <Link to="/devsoftware" className="text-sky-400 underline">DevSoftware &copy;Group</Link></p>
+    <p>Powered by <Link to="/devsoftware" className="text-sky-400 underline">DevSoftware Yahoulbo &copy;2023</Link></p>
     </div>
     </div>
     </div>

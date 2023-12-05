@@ -27,7 +27,7 @@ const responsive = {
 
 function Caroussel() {
   return (
-    <div className="mx-2">
+    <div className="mx-2 md:mx-0">
 <div className="back ">
 <div className="back1">
 

@@ -37,8 +37,9 @@
     display: none;
     animation: felix .14s linear;
     z-index: 20000;
-    border-top: 1px solid rgb(72, 200, 255);
+    cursor: pointer;
 
+ 
     div{
        div{
         border-left: 1px solid gray;
@@ -50,9 +51,9 @@
        
         li{
             color: black !important;
-            font-weight:400 !important;
+            font-weight:500 !important;
             padding: 12px 0 !important;
-            font-family: "Oswald",sans-serif;
+         cursor:pointer;
             font-size: 16px;
         }
         li:hover{
@@ -73,14 +74,15 @@
     z-index: 20000;
     width: 20%;
    margin-left: -6%;
-   border-top: 1px solid rgb(72, 200, 255);
+   cursor: pointer;
+
   }
 
   #dropdown1 ul li{
     color: black !important;
-            font-weight:600 !important;
+            font-weight:500 !important;
             padding: 12px 10px !important;
-            font-family: "Oswald",sans-serif;
+         cursor:pointer;
             font-size: 16px;
             padding: 10px;
   }
@@ -111,13 +113,13 @@
     z-index: 20000;
     width: 11.7%;
     margin-left:-4.1%;
-    border-top: 1px solid rgb(72, 200, 255);
-  }
+    cursor: pointer;
+   }
   #dropdown2 ul li{
     color: black !important;
             font-weight:500 !important;
             padding: 12px 0 !important;
-            font-family: "Oswald",sans-serif;
+         cursor:pointer;
             font-size: 16px;
             padding: 10px 10px !important;
   }
@@ -155,7 +157,6 @@
   //   border-bottom: 3px solid rgb(197, 193, 193);
   // }
   .dropdown_1:hover{
-    color:rgb(72, 200, 255) ;
     padding: 15px 0;
     
 
