@@ -5,7 +5,7 @@ import "./Footer.scss"
 import { Link } from "react-router-dom"
 function Footer() {
   return (
-    <div className="bg-gray-200 w-full static">
+    <div className="bg-gray-100 w-full static">
     <div className="  md:flex justify-between md:px-16 px-4 py-4" id="footer">
       {/* _____________+++++++++++++++++++=============== the icon and the title of the footer_____________++++++++++++++++++=========== */}
       <div >

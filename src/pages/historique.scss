@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Hedvig+Letters+Serif:opsz@12..24&family=Heebo:wght@500&family=Indie+Flower&family=Kalnia:wght@600&family=Lato&family=Montserrat+Alternates:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Roboto:wght@300;400;500&display=swap');
+
+#badel{
+    background-image: url('/toukra-project/universite roy faycale.jpg');
+    height: 70vh;
+    background-size: cover;
+}
+#badel1{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.478);
+  width: 100%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 9%;
+    color: white;
+    font-family: "Roboto",sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+}
+#doua{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.8rem;
+}
+
+@media(max-width:750px){
+    #badel{
+        height: 40vh;
+        background-size: cover;
+    } 
+    #badel1{
+        height: 40vh;
+        padding-top: 28%;
+        font-size: 30px;
+    } 
+    #doua{
+        font-family: "Heboo",sans-serif;
+        font-size: 16px;
+    }
+}

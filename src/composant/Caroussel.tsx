@@ -53,7 +53,7 @@ function Caroussel() {
        transition={{duration:2}}
        whileInView={{scale:1,opacity:1,x:0}}
        className="ms-1">d'une nation et pensee innovative</motion.span></motion.h2>
-         <div>
+         <div className="mt-2">
       <button>Programme</button>
       <button>Lire plus</button>
     </div>
@@ -71,7 +71,7 @@ function Caroussel() {
        transition={{duration:2}}
        whileInView={{scale:1,opacity:1,x:0}}
        className="ms-1">a l'universite</motion.span></motion.h2>
-         <div>
+         <div className="mt-2">
       <button>Programme</button>
       <button>Lire plus</button>
     </div>
@@ -89,7 +89,7 @@ function Caroussel() {
        transition={{duration:2}}
        whileInView={{scale:1,opacity:1,x:0}}
        className="ms-1">  success d'une vie reussie et pas d'excuse pour sa.</motion.span></motion.h2>
-         <div>
+         <div className="mt-2">
       <button>Programme</button>
       <button>Lire plus</button>
     </div>

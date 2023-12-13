@@ -5,6 +5,9 @@ import Footer from './composant/Footer'
 import NotFound from './pages/NotFound'
 import { useState,useEffect } from 'react'
 import "./App.css"
+import Faculte1 from './pages/Faculte1'
+import Admission from './pages/Admission'
+import Historique from './pages/Historique'
 function App() {
 
   const [isloaded,setIsloaded]=useState(false);
@@ -27,7 +30,10 @@ function App() {
     <>
     <Routes>
       <Route path="/toukra-project/" element={<Home/>}/>
-      <Route path='/*' element={<NotFound/>}/>
+      <Route path='/toukra-project/faculte' element={<Faculte1/>}/>
+      <Route path='/toukra-project/admission' element={<Admission/>}/>
+      <Route path='/toukra-project/historique' element={<Historique/>}/>
+      <Route path='/toukra-project/*' element={<NotFound/>}/>
     </Routes>
     <Footer/>
     </>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Hedvig+Letters+Serif:opsz@12..24&family=Heebo:wght@500&family=Indie+Flower&family=Kalnia:wght@600&family=Lato&family=Montserrat+Alternates:ital@1&display=swap');
 
 // the header none on the small screen +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 @media(max-width:765px){
@@ -81,7 +82,7 @@
   #dropdown1 ul li{
     color: black !important;
             font-weight:500 !important;
-            padding: 12px 10px !important;
+            padding: 12px 15px !important;
          cursor:pointer;
             font-size: 16px;
             padding: 10px;
@@ -212,7 +213,7 @@
 
   #headerNav{
     h3{
-        font-family: "Oswald",sans-serif;
+        font-family: "Heebo",sans-serif;
         font-weight: 600 !important;
         font-size: 20px;
     }

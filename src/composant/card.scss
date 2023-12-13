@@ -11,9 +11,10 @@ p{
 }
 }
 #dounia{
-    background-image: url("../../public/ciel.jpg") !important;
+    background-image: url("../../public/ciel1.jpeg") !important;
     background-attachment: fixed;
     height: 100%;
+    background-size: cover;
 }
 
 @media(max-width:850px){

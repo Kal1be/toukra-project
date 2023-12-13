@@ -4,6 +4,7 @@ import "./Flip.scss"
 import "react-multi-carousel/lib/styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 function Flip() {
     const responsive = {
         superLargeDesktop: {
@@ -30,7 +31,7 @@ function Flip() {
         <div className="mx-2 md:text-left">
         <h3 className="md:text-4xl text-2xl  text-white font-extrabold">L'universite de Toukra </h3>
          <p className="md:text-xl text-gray-200 my-3 mx-1">L'universite de Toukra est une universite qui fait de l'apprentissage son credo et sa renommee.</p>
-         <button className="bg-black text-white p-3 text-center">Decouvrir l'universite <FontAwesomeIcon icon={faArrowRight}/></button>
+         <Link to="/toukra-project/historique" className="bg-black text-white p-3 text-center">Decouvrir l'universite <FontAwesomeIcon icon={faArrowRight}/></Link>
         </div>
 
         {/* ++++++++++++++++======================the temoignages of our student++++++++++================================== */}
