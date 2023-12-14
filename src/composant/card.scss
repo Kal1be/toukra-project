@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Hedvig+Letters+Serif:opsz@12..24&family=Heebo:wght@500&family=Indie+Flower&family=Kalnia:wght@600&family=Lato&family=Montserrat+Alternates:ital@1&display=swap');
+
 #modifiant{
     padding: 20px 10px;
 img{
@@ -11,12 +13,17 @@ p{
 }
 }
 #dounia{
-    background-image: url("../../public/ciel1.jpeg") !important;
+    background-image: url("../../public/ciel.jpg") !important;
+    // background-color: rgb(246, 240, 240);
     background-attachment: fixed;
     height: 100%;
     background-size: cover;
 }
-
+#my-p{
+font-family: "EduTasBeginner",sans-serif;
+// font-weight: 500 !important;
+// }
+}
 @media(max-width:850px){
     #modifiant{
         p{

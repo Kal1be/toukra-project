@@ -13,9 +13,7 @@ function Home() {
     <div>
   <Navbar/>
   <Header/>
-  <div id='my-image'>
   <Caroussel/>
-  </div>
   <Body/>
   <Flip/>
   <Flip1/>

@@ -1,9 +1,10 @@
-import React from 'react'
+
 import Header from '../composant/Header'
 import './historique.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBook,faUniversity } from '@fortawesome/free-solid-svg-icons'
+import { faBook,faUniversity,faPersonThroughWindow } from '@fortawesome/free-solid-svg-icons'
 import { motion } from 'framer-motion'
+import Scroll from '../composant/Scroll'
 
 function Historique() {
   return (
@@ -32,7 +33,7 @@ de Toukra</p>
             <motion.div
             initial={{opacity:0,x:-100}} 
             whileInView={{opacity:1,x:0}}
-            className='bg-blue-100 p-4 m-4'>
+            className='bg-[#f4f9fe] p-4 m-4'>
                 <h3 className='text-center md:text-4xl text-2xl text-gray-800 font-bold'>Le doyen de l'education</h3>
                 <h3 className='text-center md:text-3xl text-xl font-bold text-sky-400 my-2'>Message de Bienvenue</h3>
                 <p id='doua'>Au nom des membres du personnel de la Faculté de l'éducation, je vous souhaite la bienvenue sur
@@ -45,13 +46,14 @@ de Toukra</p>
                      a nous rejoindre et a célèbrer la joie d'apprendre.</p>
             </motion.div>
             <div className='mx-3 my-2'>
-                <h3 className='text-3xl text-sky-400 font-bold'>Universite</h3>
-                <h4 className='text-xl font-medium my-2'>Mission, Vision et Philosophie</h4>
+                <h3 className='text-3xl  font-extrabold'>Universite</h3>
+                <h4 className='text-xl font-medium my-2 text-sky-400'>Mission, Vision et Philosophie</h4>
                 <div className='md:flex justify-between'>
                     <motion.div
                      initial={{opacity:0,x:-100}} 
-                     whileInView={{opacity:1,x:0}} className='bg-blue-100 p-4 mx-1 my-2'>
-                   <h2 className='text-2xl font-bold text-sky-400'> <FontAwesomeIcon icon={faBook}/>Mission</h2>
+                     transition={{duration:1.5}}
+                     whileInView={{opacity:1,x:0}} className='bg-[#f4f9fe] p-4 mx-1 my-2'>
+                   <h2 className='text-2xl font-bold '> <FontAwesomeIcon icon={faBook} className='mx-2 text-sky-400'/>Mission</h2>
                    <p id='doua'>Repousser les frontières de l'apprentissage et innover,
                      par l'enseignement, la recherche et la diffusion de connaissances
                       de la plus haute qualité; ètablir et favoriser l'integration nationale
@@ -61,10 +63,11 @@ de Toukra</p>
                      et aux defis de la zone du Tchad et du reste du monde.</p>
                     </motion.div>
                     <motion.div
-                     initial={{opacity:0,x:100}} 
+                     initial={{opacity:0,x:-100}} 
+                     transition={{duration:1}}
                      whileInView={{opacity:1,x:0}}
-                      className='bg-blue-100 p-4 mx-1 my-2'>
-                        <h2 className='text-2xl font-bold text-sky-400'><FontAwesomeIcon icon={faUniversity}/>Vision</h2>
+                      className='bg-[#f4f9fe] p-4 mx-1 my-2'>
+                        <h2 className='text-2xl font-bold '><FontAwesomeIcon icon={faUniversity} className='mx-2 text-sky-400'/>Vision</h2>
                         <p id='doua'>La facultè d'éducation doit être une faculté de classe mondiale comparable 
                             à toute autre,engagèe dans la transmission des connaissance contemporaines,
                              en utilisant des de haute qualité et des approches multidisplinares, aux 
@@ -73,12 +76,13 @@ de Toukra</p>
                              communaute immediate du tchad et le monde en génèrale .</p>
                     </motion.div>
                 </div>
-                <div className='bg-blue-100 p-4 mx-1 my-4'>
-                  <h2 className='text-2xl font-bold text-sky-400'><FontAwesomeIcon icon={faBook}/>Philosophie</h2>
+                <div className='bg-[#f4f9fe] p-4 mx-1 my-4'>
+                  <h2 className='text-2xl font-bold '><FontAwesomeIcon icon={faPersonThroughWindow} className='mx-2 text-sky-400'/>Philosophie</h2>
                 </div>
             </div>
         </div>
       </div>
+      <Scroll/>
     </div>
   )
 }

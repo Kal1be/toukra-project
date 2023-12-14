@@ -9,7 +9,7 @@ function Admission() {
      <div>
       <div>
         <div className="mx-2">
-          <h2 className="text-sky-400 text-2xl font-bold">Admissions</h2>
+          <h2 className="text-2xl text-sky-400 font-extrabold">Admissions</h2>
         <p >L'Universite de Toukra offrent une large facultés et des
            programmes comptant de la Licence au Master et un Certificat de Cours
            du Premier annèe au Licence, Postuler pour l'universite de Toukra pour plus d'information</p></div>
@@ -17,8 +17,8 @@ function Admission() {
 
       {/* ___________++++++++++++++++++++++++ the first element+++++++++++++++==============================-------_______ */}
 
-      <div className="md:flex justify-between my-4">
-        <div className="border mx-2 my-4">
+      <div className="md:flex justify-between my-4 rounded-xl">
+        <div className="border mx-2 my-4 rounded-xl">
         <h3 className="bg-red-300 text-center w-full font-medium text-white py-2">Formulaire de troisième Cycle</h3>
         <p className="mx-3 text-sm">L'Universite de Toukra offrent au etudiants du troisieme 
           cycles des programmes pour Master,PGD,PhD et 
@@ -27,7 +27,7 @@ function Admission() {
           <button id="btn3">Programme du troisieme cycle</button>
           </div>
         </div>
-        <div className="border mx-2 my-4">
+        <div className="border mx-2 my-4 rounded-xl">
         <h3 className="text-center w-full text-white font-medium py-2" id="fon">Diplomes et autres postulant</h3>
         <p className="mx-3 text-sm">L'Universite de Toukra offrent aux diplomes et des hauts 
           diplomes des Certificat de formations Inter/Intra
@@ -42,7 +42,7 @@ function Admission() {
       {/* __________+++++++++++++++==================== the element of second ___________+++++++++++++++++++++++++++========= */}
 
       <div className="md:flex justify-between my-4 rounded-xl">
-     <div className="border mx-2 my-4">
+     <div className="border mx-2 my-4 rounded-xl">
   <h3 className=" text-center w-full font-medium text-white py-2" id="fon">DAC Formulaire</h3>
   <p className="mx-3 text-sm">La division environnementale et la lutte contre la secheresse 
     offrent une formation en Pre-ND,ND,HHD & des certificats,
@@ -65,7 +65,7 @@ function Admission() {
       {/* ___________++++++++++++============= the fistt++++++++++_________________________---======================= */}
      </div>
      {/* ______________++++++++++++++++=============== the offcanva________+++++++++++++++++++============= */}
-     <div className="bg-blue-950 py-2 px-4 rounded-xl">
+     <div className="bg-slate-800 py-2 px-4 rounded-xl">
    <div>
     <h2 className="text-white font-bold pt-4">Questions ?</h2>
     <p className="text-sky-400 text-sm py-2">Si vous avez des questions concernant 

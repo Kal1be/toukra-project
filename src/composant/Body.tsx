@@ -46,7 +46,7 @@ function Body() {
             <img src="/toukra-project/sky.png" alt="l'icon ne peut" className="w-16"/>
                  <div className="mx-2 md:mx-0">
                  <h4 className="font-bold md:text-xl text-xl">Enseignement E-Learning</h4>
-                  <p className="md:text-lg md:font-sm text-md text-justify">
+                  <p className="md:text-lg md:font-sm text-sm text-justify">
                       L'universite de Toukra offre une apprentissage en ligne,grace au partenariat
                        avec l'universite Virtuelle du Tchad.
 
@@ -63,7 +63,7 @@ function Body() {
                 <div className="mx-2 md:mx-0">
                 <h4 className="font-bold  md:text-xl text-xl">Programme de premier
 cycle</h4>
-                 <p className="md:text-lg text-md text-justify">L'université de Toukra produit plus de 20000 place chaque annèe pour accueillir les nouveaux étudiants.</p>
+                 <p className="md:text-lg text-sm text-justify">L'université de Toukra produit plus de 20000 place chaque annèe pour accueillir les nouveaux étudiants.</p>
                 </div>
                 </motion.div>
       </div>
@@ -75,12 +75,12 @@ cycle</h4>
       initial={{y:10,opacity:0}}
       transition={{duration:1.3}}
       whileInView={{y:0,opacity:1}}
-      className="md:me-14 w-full flex md:block justify-between my-4  md:my-0"
+      className="md:me-14 w-full flex  md:block justify-between my-4  md:my-0"
       >
             <img src="/toukra-project/cap.png" alt="l'icon ne peut" className="w-16"/>
            <div className="mx-2 md:mx-0">
            <h4 className=" md:text-xl text-xl font-bold">LVT/DIplome</h4>
-                 <p className="md:text-lg text-md text-justify">Maintenant pour ceux qui peuvent être disponible à l'espace de 2 ou 3 mois par ans pour étudier pour un Diploma.</p>
+                 <p className="md:text-lg text-sm text-justify">Maintenant pour ceux qui peuvent être disponible à l'espace de 2 ou 3 mois par ans pour étudier pour un Diploma.</p>
            </div>
                 </motion.div>
                 {/* +++++++++++++++++++========================= the op +++++++++++++++================ */}
@@ -94,7 +94,7 @@ cycle</h4>
                 <div className="mx-2 md:mx-0">
                 <h4 className="font-bold  md:text-xl text-xl">
 La vie universitaire</h4>
-                 <p className="text-md md:text-lg text-justify">L'universite Toukra offre plus de 10000 logements pour ses etudiants et offre une meilleur centre de sante pour le bien de ces etudiants.</p>
+                 <p className="text-sm md:text-lg text-justify">L'universite Toukra offre plus de 10000 logements pour ses etudiants et offre une meilleur centre de sante pour le bien de ces etudiants.</p>
                 </div>
                 </motion.div>
       </div>

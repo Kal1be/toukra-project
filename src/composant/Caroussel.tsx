@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser,faHome,faCheck, faExclamationCircle, faTools } from "@fortawesome/free-solid-svg-icons";
 import "./carousel.scss"
 import { motion } from "framer-motion";
+import {Link } from "react-router-dom"
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -54,7 +55,7 @@ function Caroussel() {
        whileInView={{scale:1,opacity:1,x:0}}
        className="ms-1">d'une nation et pensee innovative</motion.span></motion.h2>
          <div className="mt-2">
-      <button>Programme</button>
+      <Link to="/toukra-project/admission" className="bg-white py-[6px] md:py-[10px] px-[20px] font-medium text-sky-400">Programme</Link >
       <button>Lire plus</button>
     </div>
 
@@ -72,7 +73,7 @@ function Caroussel() {
        whileInView={{scale:1,opacity:1,x:0}}
        className="ms-1">a l'universite</motion.span></motion.h2>
          <div className="mt-2">
-      <button>Programme</button>
+         <Link to="/toukra-project/admission" className="bg-white py-[6px] md:py-[10px] px-[20px] font-medium text-sky-400">Suivre ++</Link >
       <button>Lire plus</button>
     </div>
 
@@ -90,7 +91,7 @@ function Caroussel() {
        whileInView={{scale:1,opacity:1,x:0}}
        className="ms-1">  success d'une vie reussie et pas d'excuse pour sa.</motion.span></motion.h2>
          <div className="mt-2">
-      <button>Programme</button>
+         <Link to="/toukra-project/admission" className="bg-white py-[6px] md:py-[10px] px-[20px] font-medium text-sky-400">Programme</Link >
       <button>Lire plus</button>
     </div>
 
