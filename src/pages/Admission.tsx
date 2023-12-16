@@ -1,3 +1,4 @@
+import Footer from "../composant/Footer"
 import Header from "../composant/Header"
 import './admission.scss'
 
@@ -86,7 +87,7 @@ function Admission() {
      </div>
     </div>
    
-
+<Footer/>
     </div>
   )
 }

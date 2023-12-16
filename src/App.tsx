@@ -8,6 +8,7 @@ import "./App.css"
 import Faculte1 from './pages/Faculte1'
 import Admission from './pages/Admission'
 import Historique from './pages/Historique'
+import Formation from "./pages/Formation"
 function App() {
 
   const [isloaded,setIsloaded]=useState(false);
@@ -33,9 +34,9 @@ function App() {
       <Route path='/toukra-project/faculte' element={<Faculte1/>}/>
       <Route path='/toukra-project/admission' element={<Admission/>}/>
       <Route path='/toukra-project/historique' element={<Historique/>}/>
+      <Route path="/toukra-project/formation" element={<Formation/>}/>
       <Route path='/toukra-project/*' element={<NotFound/>}/>
     </Routes>
-    <Footer/>
     </>
   )
 }

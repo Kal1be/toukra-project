@@ -26,7 +26,7 @@ return()=>{
   },[navbar])
   return (
     <div>
-      <div className="flex justify-between items-center md:py-2 py-2 px-1 font-bold shadow-2xl" id="headerNav">
+      <div className="flex justify-between items-center md:py-2 py-2 px-1 font-bold border shadow-2xl" id="headerNav">
       <div className="flex justify-between w-screen items-center">
 
         {/*_+++++++++++++++=========================== the navbar and the element+++++++++++++++++++=================================================*/}
@@ -35,7 +35,7 @@ return()=>{
         <img src="/toukra-project/im6.png" alt="" className="xl:w-[13%] me-[2px] xl:h-[19%] w-9 object-cover" />
        <div>
        <h3 className="lg:text-2xl md:mt-[-1px] text-xl font-extrabold">Universite de<span className="text-sky-400"> Toukra</span></h3>
-       <div className="divider  -ms-1 md:-mt-[6px] -mt-[5px]">
+       <div className="divider  -ms-[2px] md:-mt-[6px] -mt-[5px]">
        <img src="/toukra-project/drapeau1.png" alt="" className="xl:w-2 xl:h-3 w-2 h-3" />
        </div>
        </div>
@@ -153,7 +153,7 @@ return()=>{
         <img src="/toukra-project/im6.png" alt="" className="xl:w-[13%] me-[2px] xl:h-[19%] w-9 object-cover" />
        <div>
        <h3 className="lg:text-2xl md:mt-[-1px] text-xl font-extrabold">Universite de<span className="text-sky-400"> Toukra</span></h3>
-       <div className="divider -ms-1 md:-mt-[6px] -mt-[5px]">
+       <div className="divider -ms-[2px] md:-mt-[6px] -mt-[5px]">
        <img src="/toukra-project/drapeau1.png" alt="" className="xl:w-2 xl:h-3 w-2 h-3" />
        </div>
        </div>

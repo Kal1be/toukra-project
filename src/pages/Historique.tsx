@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBook,faUniversity,faPersonThroughWindow } from '@fortawesome/free-solid-svg-icons'
 import { motion } from 'framer-motion'
 import Scroll from '../composant/Scroll'
+import Footer from '../composant/Footer'
 
 function Historique() {
   return (
@@ -14,6 +15,7 @@ function Historique() {
         {/* ______________++++++++++++++++ the part of the image________+++++++++++++++++++++++++ */}
         <div id='badel'>
   <div id='badel1'>
+    <h2 className="text-center md:text-4xl text-lg font-normal">L'histoire de l'universite</h2>
 <p className='text-center'>Historique de l'Universitè <br />
 de Toukra</p>
   </div>
@@ -83,6 +85,7 @@ de Toukra</p>
         </div>
       </div>
       <Scroll/>
+      <Footer/>
     </div>
   )
 }

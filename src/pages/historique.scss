@@ -21,9 +21,12 @@
     font-weight: bold;
 }
 #doua{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
-    line-height: 1.8rem;
+    p{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 20px;
+        line-height: 1.8rem;
+    }
+    
 }
 
 @media(max-width:750px){
@@ -34,11 +37,13 @@
     } 
     #badel1{
         height: 40vh;
-        padding-top: 33%;
+        padding-top: 32%;
         font-size: 30px;
     } 
     #doua{
+       p{
         font-family: "Heboo",sans-serif;
         font-size: 16px;
+       }
     }
 }

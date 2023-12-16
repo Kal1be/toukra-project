@@ -8,6 +8,7 @@ import Body1 from "../composant/Body1"
 import TreeCard from "../composant/TreeCard"
 import Cookies from "../composant/Cookies"
 import Scroll from "../composant/Scroll"
+import Footer from "../composant/Footer"
 function Home() {
   return (
     <div>
@@ -22,6 +23,7 @@ function Home() {
   <TreeCard/>
  <Cookies/>
  <Scroll/>
+ <Footer/>
     </div>
   )
 }
